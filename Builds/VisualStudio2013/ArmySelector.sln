@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2013
+Project("{BA459CA0-613E-3AA8-1EE8-08608FCF4FD2}") = "ArmySelector", "ArmySelector.vcxproj", "{ED4BACAC-57FA-2DE2-DEFD-2D00A728ABAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED4BACAC-57FA-2DE2-DEFD-2D00A728ABAF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED4BACAC-57FA-2DE2-DEFD-2D00A728ABAF}.Debug|Win32.Build.0 = Debug|Win32
+		{ED4BACAC-57FA-2DE2-DEFD-2D00A728ABAF}.Release|Win32.ActiveCfg = Release|Win32
+		{ED4BACAC-57FA-2DE2-DEFD-2D00A728ABAF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

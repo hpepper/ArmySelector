@@ -1,0 +1,4292 @@
+
+<Armies Version="0.1.0">
+<Army Name="Chaos">
+<!-- Army Name="CHAOS GREATER DEMON" -->
+
+ <!-- Angron=300\n10\n2+\n+12\nFearsome Roar\n25\nspc\n-\n-\n3\n1\n-\n-\nKhorne\n 
+   -->
+<Unit Name="Angron">
+  <Cost>300</Cost>
+  <Move>10</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+12</CloseAssaultFactor>
+  <Weapon Name="Fearsome Roar" Range="25" AttackDice="spc" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Bloodthirster=300\n10\n2+\n+12\nAxe + Whip\n-\n-\n-\n-\n3\n1\n-\n-\n2 CA combat\n 
+   -->
+<Unit Name="Bloodthirster">
+  <Cost>300</Cost>
+  <Move>10</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+12</CloseAssaultFactor>
+  <Weapon Name="Axe + Whip" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Fulgrim=300\n10\n2+\n+10\nSoporic musk\n25\nspc\n-\n-\n3\n1\n-\n-\n\n 
+   -->
+<Unit Name="Fulgrim">
+  <Cost>300</Cost>
+  <Move>10</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+10</CloseAssaultFactor>
+  <Weapon Name="Soporic musk" Range="25" AttackDice="spc" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Great Unclean one=300\n5\n1+\n+7\nCorrupt stream\n25\nspc\n3+\nnon\n3\n1\n-\n-\nNurgle\n 
+   -->
+<Unit Name="Great Unclean one">
+  <Cost>300</Cost>
+  <Move>5</Move>
+  <SavingThrow>1+</SavingThrow>
+  <CloseAssaultFactor>+7</CloseAssaultFactor>
+  <Weapon Name="Corrupt stream" Range="25" AttackDice="spc" ToHit="3+" TargetSaveMod="non"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Keeper of Secrets=300\n10\n2+\n+10\nAura Slanesh\n25\nspc\n4+\nnon\n3\n1\n-\n-\n\n 
+   -->
+<Unit Name="Keeper of Secrets">
+  <Cost>300</Cost>
+  <Move>10</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+10</CloseAssaultFactor>
+  <Weapon Name="Aura Slanesh" Range="25" AttackDice="spc" ToHit="4+" TargetSaveMod="non"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Lord of Battles=500\n15\nspc\n+10\nspc\n\n\n\n\n5\n1\n1\n-\n3+ psy save\n 
+   -->
+<Unit Name="Lord of Battles">
+  <Cost>500</Cost>
+  <Move>15</Move>
+  <SavingThrow>spc</SavingThrow>
+  <CloseAssaultFactor>+10</CloseAssaultFactor>
+  <Weapon Name="spc" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Lord of change=300\n15\n2+\n+8\nChange bolt\n35\n1\n3+\n-1\n3\n1\n-\n-\nSkimmer\n 
+   -->
+<Unit Name="Lord of change">
+  <Cost>300</Cost>
+  <Move>15</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+8</CloseAssaultFactor>
+  <Weapon Name="Change bolt" Range="35" AttackDice="1" ToHit="3+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Magnus the Red=300\n10\n2+\n+10\nBeam of power\n100\n1\n2+\n-6\n3\n1\n-\n-\n\n 
+   -->
+<Unit Name="Magnus the Red">
+  <Cost>300</Cost>
+  <Move>10</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+10</CloseAssaultFactor>
+  <Weapon Name="Beam of power" Range="100" AttackDice="1" ToHit="2+" TargetSaveMod="-6"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+</Army>
+
+<!-- Army Name="CHAOS" --> 
+   -->
+
+ <!-- Androids=100\n10\n-\n+4\nLasgun\n50\n1\n5+\n0\n1\n4\n2\n2\nRoll plc ordr\n 
+   -->
+<Unit Name="Androids">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Lasgun" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Beast Riders, S=150\n20\n-\n+3\nBolters\n25\n1\n6+\n0\n2\n5\n3\n2\n\n 
+   -->
+<Unit Name="Beast Riders, S">
+  <Cost>150</Cost>
+  <Move>20</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="25" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Beast of Nurgle=200\n10\n3+\n+5\n-\n-\n-\n-\n-\n2\n5\n3\n1\nCloud of flies\n 
+   -->
+<Unit Name="Beast of Nurgle">
+  <Cost>200</Cost>
+  <Move>10</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>+5</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Beastmen=200\n10\n-\n+3\nSwords/Axes\n\n\n\n\n2\n11\n6\n3\n\n 
+   -->
+<Unit Name="Beastmen">
+  <Cost>200</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Swords/Axes" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Bike Squad=150\n30\n-\n+3\nBolters\n15\n1\n6+\n0\n2\n5\n3\n2\n\n 
+   -->
+<Unit Name="Bike Squad">
+  <Cost>150</Cost>
+  <Move>30</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Bloodletters=150\n10\n4+\n+5\n-\n-\n-\n-\n-\n2\n5\n3\n1\nRegenerate\n 
+   -->
+<Unit Name="Bloodletters">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+5</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Blue horrors=-\n10\n-\n1\n-\n\n-\n-\n-\n\n\n\n\n\n 
+   -->
+<Unit Name="Blue horrors">
+  <Cost>-</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>1</CloseAssaultFactor>
+  <Weapon Name="-" Range="" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Cannon of Khorne=200\n10\n3+\n+1\nWarp cannon\nspc\n\n\n-4\n2\n3\n2\n3\n2-10 BP\n 
+   -->
+<Unit Name="Cannon of Khorne">
+  <Cost>200</Cost>
+  <Move>10</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Warp cannon" Range="spc" AttackDice="" ToHit="" TargetSaveMod="-4"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Cauldron of blood=\n15\nA2+\n+5\nBlood cannon\nlva\ntmp\n4+\n-1\n\n\n\n\n+1 if win\n 
+   -->
+<Unit Name="Cauldron of blood">
+  <Cost></Cost>
+  <Move>15</Move>
+  <SavingThrow>A2+</SavingThrow>
+  <CloseAssaultFactor>+5</CloseAssaultFactor>
+  <Weapon Name="Blood cannon" Range="lva" AttackDice="tmp" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Champion=\n10\n6+\n+4\nDeamon Weapon\n25\n1\n5+\n0\n\n\n\n\npsy sav 4+\n 
+   -->
+<Unit Name="Champion">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Deamon Weapon" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Cultists=200\n10\n-\n0\nLasguns\n50\n1\n5+\n0\n2\n10\n5\n4\n\n 
+   -->
+<Unit Name="Cultists">
+  <Cost>200</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Lasguns" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Daemonettes=150\n10\n4+\n+4\n-\n-\n-\n-\n-\n2\n5\n3\n1\nEuphoric ecstasy\n 
+   -->
+<Unit Name="Daemonettes">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Deamon Engines=300\n\n\n\n\n\n\n\n\n3\n3\n3\n2\nTower;Cauldron;death Dealer\n 
+   -->
+<Unit Name="Deamon Engines">
+  <Cost>300</Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Death Dealer=\n15\nA2+\n+7\nBolters\n15\n4\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Death Dealer">
+  <Cost></Cost>
+  <Move>15</Move>
+  <SavingThrow>A2+</SavingThrow>
+  <CloseAssaultFactor>+7</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="4" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Death Dealer=\n\n\n\nGatling\n25\n6\n5+\n0\n\n\n\n\n+1 if win\n 
+   -->
+<Unit Name="Death Dealer">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Gatling" Range="25" AttackDice="6" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Death Dealer=\n\n\n\nTower gun\n50\n1\n5+\n-1\n\n\n\n\n5 stands\n 
+   -->
+<Unit Name="Death Dealer">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Tower gun" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Disc Riders=200\n25\n-\n+2\nLascannon\n50\n1\n5+\n-1\n2\n5\n3\n2\nSkimmer\n 
+   -->
+<Unit Name="Disc Riders">
+  <Cost>200</Cost>
+  <Move>25</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Lascannon" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Doom Wing=250\nsp\n4+\n+3\nFlame cannon\ntmp\nlat\n4+\n-1\n3\n3\n2\n1\nmov 20-75\n 
+   -->
+<Unit Name="Doom Wing">
+  <Cost>250</Cost>
+  <Move>sp</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Flame cannon" Range="tmp" AttackDice="lat" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Dreadnought=150\n10\n5+\n+1\nvarious\n50\n2\n5+\n0\n2\n4\n2\n2\n\n 
+   -->
+<Unit Name="Dreadnought">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>5+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="various" Range="50" AttackDice="2" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Fiends=50\n15\n-\n+1\n-\n-\n-\n-\n-\n1\n5\n3\n1\nSoporific musk\n 
+   -->
+<Unit Name="Fiends">
+  <Cost>50</Cost>
+  <Move>15</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Fire Lord=300\n60\nO2+\n+3\nFirestorm bombs\ntmp\n\n3+\n-3\n3\n1\n1\n1\nmove 20-60\n 
+   -->
+<Unit Name="Fire Lord">
+  <Cost>300</Cost>
+  <Move>60</Move>
+  <SavingThrow>O2+</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Firestorm bombs" Range="tmp" AttackDice="" ToHit="3+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Fire Lord=\n\n\n\nFlam cannon\ntmp\n\n4+\n-1\n\n\n\n\n\n 
+   -->
+<Unit Name="Fire Lord">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Flam cannon" Range="tmp" AttackDice="" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Fire Lord=\n\n\n\nLascannon\n50\n4\n5+\n-1\n\n\n\n\n\n 
+   -->
+<Unit Name="Fire Lord">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Lascannon" Range="50" AttackDice="4" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Flamers=100\n15\n-\n+1\nFlame\n25\n1\n5+\n0\n1\n5\n3\n1\nIgnore cover\n 
+   -->
+<Unit Name="Flamers">
+  <Cost>100</Cost>
+  <Move>15</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Flame" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Fleshhounds=100\n20\n-\n20\n+2\n-\n-\n-\n-\n1\n5\n3\n1\nimm psy\n 
+   -->
+<Unit Name="Fleshhounds">
+  <Cost>100</Cost>
+  <Move>20</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>20</CloseAssaultFactor>
+  <Weapon Name="+2" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Juggers=150\n15\n5+\n+5\nBolters\n25\n1\n6+\n0\n2\n5\n3\n1\ncompl chrg\n 
+   -->
+<Unit Name="Juggers">
+  <Cost>150</Cost>
+  <Move>15</Move>
+  <SavingThrow>5+</SavingThrow>
+  <CloseAssaultFactor>+5</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="25" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Land Raider=\n20\n2+\n+3\nBolters\n15\n1\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Land Raider">
+  <Cost></Cost>
+  <Move>20</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Land Raider=200\n\n\n\nLascannon\n75\n2\n5+\n-2\n2\n3\n2\n2\nCarry 2\n 
+   -->
+<Unit Name="Land Raider">
+  <Cost>200</Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Lascannon" Range="75" AttackDice="2" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Land Speeders=200\n30\n-\n+3\nMulti-melta\n25\n1\n3+\n-2\n2\n5\n3\n2\nSkimmer\n 
+   -->
+<Unit Name="Land Speeders">
+  <Cost>200</Cost>
+  <Move>30</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Multi-melta" Range="25" AttackDice="1" ToHit="3+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Legion=500\n10\n-\n+3\nMissile Launcer\n50\n1\n4+\n-1\n5\n16\n8\n2\n\n 
+   -->
+<Unit Name="Legion">
+  <Cost>500</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Missile Launcer" Range="50" AttackDice="1" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Marines=150\n10\n-\n+3\nMissile Launcher\n50\n1\n4+\n-1\n2\n5\n3\n2\n\n 
+   -->
+<Unit Name="Marines">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Missile Launcher" Range="50" AttackDice="1" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Minotaur warband=250\n10\n6+\n5+\n-\n-\n-\n-\n-\n3\n11\n6\n3\n\n 
+   -->
+<Unit Name="Minotaur warband">
+  <Cost>250</Cost>
+  <Move>10</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>5+</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Minotaurs=250\n10\n6+\n+5\n-\n-\n-\n-\n-\n3\n11\n6\n3\n\n 
+   -->
+<Unit Name="Minotaurs">
+  <Cost>250</Cost>
+  <Move>10</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>+5</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Mortarion=300\n10\n2+\n+10\nPlague wind\n25\n-\n-\n-\n3\n1\n-\n-\n\n 
+   -->
+<Unit Name="Mortarion">
+  <Cost>300</Cost>
+  <Move>10</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+10</CloseAssaultFactor>
+  <Weapon Name="Plague wind" Range="25" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Pink horrors=150\n10\n4+\n+4\n-\n\n-\n-\n-\n2\n5\n3\n1\nDuplicate\n 
+   -->
+<Unit Name="Pink horrors">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="-" Range="" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Plaguebearers=150\n10\n4+\n+4\n-\n-\n-\n-\n-\n2\n5\n3\n1\nCloud of flies\n 
+   -->
+<Unit Name="Plaguebearers">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Rhino sqadron=50\n25\n4+\n0\nBolters\n15\n1\n6+\n0\n1\n3\n2\n2\nCarry 2\n 
+   -->
+<Unit Name="Rhino sqadron">
+  <Cost>50</Cost>
+  <Move>25</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Silver Tower of Tzeentch=350\nXX\nA2+\n+3\nBeam of Power\n75\n1\n3+\n-2\n4\n2\n1\n1\n\n 
+   -->
+<Unit Name="Silver Tower of Tzeentch">
+  <Cost>350</Cost>
+  <Move>XX</Move>
+  <SavingThrow>A2+</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Beam of Power" Range="75" AttackDice="1" ToHit="3+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Silver tower of Tzeentch=\n\n\n\nCannon\n50\n4\n5+\n-1\n\n\n\n\n\n 
+   -->
+<Unit Name="Silver tower of Tzeentch">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Cannon" Range="50" AttackDice="4" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Squats=150\n10\n-\n+2\nHeavy Bolters\n50\n2\n5+\n0\n2\n6\n3\n3\n\n 
+   -->
+<Unit Name="Squats">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Heavy Bolters" Range="50" AttackDice="2" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Terminator=300\n\n\n\n\n\n\n\n\n3\n6\n3\n1\n2 Land raid\n 
+   -->
+<Unit Name="Terminator">
+  <Cost>300</Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Tower of skulls=\n15\nO2+\n+5\nBolters\n15\n6\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Tower of skulls">
+  <Cost></Cost>
+  <Move>15</Move>
+  <SavingThrow>O2+</SavingThrow>
+  <CloseAssaultFactor>+5</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="6" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Tower of skulls=\n\n\n\nCannon\n50\n5\n50\n-1\n\n\n\n\n+1 if winning\n 
+   -->
+<Unit Name="Tower of skulls">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Cannon" Range="50" AttackDice="5" ToHit="50" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Trolls=250\n10\n6+\n+5\n-\n-\n-\n-\n-\n3\n11\n6\n4\nRegenerate\n 
+   -->
+<Unit Name="Trolls">
+  <Cost>250</Cost>
+  <Move>10</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>+5</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Warlord Titan=900\n15\nspc\n+14\nspc\nspc\n\n\n\n9\n1\n1\n-\n\n 
+   -->
+<Unit Name="Warlord Titan">
+  <Cost>900</Cost>
+  <Move>15</Move>
+  <SavingThrow>spc</SavingThrow>
+  <CloseAssaultFactor>+14</CloseAssaultFactor>
+  <Weapon Name="spc" Range="spc" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+</Army>
+ <!--  
+   -->
+
+ <!-- [ELDAR HOST] 
+   -->
+<Army Name="Eldar">
+ <!-- Defender Warhost=450\n-\n-\n-\n-\n-\n-\n-\n-\n5\n18\n9\n3\n3x6 Guardians\n 
+   -->
+<Unit Name="Defender Warhost">
+  <Cost>450</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Falcon Host=450\n-\n-\n-\n-\n-\n-\n-\n-\n5\n9\n5\n3\n3 x 3 Falcon's\n 
+   -->
+<Unit Name="Falcon Host">
+  <Cost>450</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Spirit Host=500\n-\n-\n-\n-\n-\n-\n-\n-\n5\n13\nW\n-\n1 Warlock;4 Wraithguard;2x4 Dreadnought\n 
+   -->
+<Unit Name="Spirit Host">
+  <Cost>500</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Tempest Host=900\n-\n-\n-\n-\n-\n-\n-\n-\n9\n6\n3\n3\n2 x 3 Tempest\n 
+   -->
+<Unit Name="Tempest Host">
+  <Cost>900</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Warhost=850\n-\n-\n-\n-\n-\n-\n-\n-\n9\n27\n14\n3\n3x3Falcon;+3x6Guardians\n 
+   -->
+<Unit Name="Warhost">
+  <Cost>850</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Wind Rider Host=650\n-\n-\n-\n-\n-\n-\n-\n-\n7\n25\n13\n3\n2 x 5 Vyper jet;3 x5 Jet's\n 
+   -->
+<Unit Name="Wind Rider Host">
+  <Cost>650</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!--  
+   -->
+
+ <!-- [ELDAR TITAN WEAPON] 
+   -->
+
+ <!-- Titan=\n\n\n\nPower Fist\n50\n4\n4+\n-1\n\n\n\n\nUse in CC\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Power Fist" Range="50" AttackDice="4" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nPsychic Lance\n50\n\n\nnon\n\n\n\n\n\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Psychic Lance" Range="50" AttackDice="" ToHit="" TargetSaveMod="non"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nPulsar\n100\n1\n2+\n-2\n\n\n\n\nD6 hit/brg\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Pulsar" Range="100" AttackDice="1" ToHit="2+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nTremor Cannon\n100\n1\n3+\n-2\n\n\n\n\ninter 5+\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Tremor Cannon" Range="100" AttackDice="1" ToHit="3+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nHeat Lance\n<25\n1\n2+\n-5\n\n\n\n\n+5 dam\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Heat Lance" Range="<25" AttackDice="1" ToHit="2+" TargetSaveMod="-5"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nHeat Lance\n<50\n1\n3+\n-3\n\n\n\n\n+3 dam\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Heat Lance" Range="<50" AttackDice="1" ToHit="3+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nHeat Lance\n<75\n1\n4+\n-1\n\n\n\n\n+5 dam\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Heat Lance" Range="<75" AttackDice="1" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!--  
+   -->
+
+ <!-- [ELDAR SPECIAL] 
+   -->
+
+ <!-- Exarchs=400\n20\n6+\n+8\nAnch. Artefact\n75\n2\n3+\n-1\n4\n4\n2\n\n\n 
+   -->
+<Unit Name="Exarchs">
+  <Cost>400</Cost>
+  <Move>20</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>+8</CloseAssaultFactor>
+  <Weapon Name="Anch. Artefact" Range="75" AttackDice="2" ToHit="3+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Harlequin=150\n15\n-\n+6\nShuriken pistol\n25\n1\n5+\n0\n2\n4\n2\n2\nspc\n 
+   -->
+<Unit Name="Harlequin">
+  <Cost>150</Cost>
+  <Move>15</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+6</CloseAssaultFactor>
+  <Weapon Name="Shuriken pistol" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Scout=100\n10\n-\n+3\nLasgun\n50\n1\n4+\n0\n1\n4\n2\n2\n<25 to be seen\n 
+   -->
+<Unit Name="Scout">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Lasgun" Range="50" AttackDice="1" ToHit="4+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Warlock=100\n10\n-\n+2\nShur pistol\n25\n1\n5+\n-\n\n1\n-\n-\nPsychic power\n 
+   -->
+<Unit Name="Warlock">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Shur pistol" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Class></Class>
+  <Notes></Notes>
+</Unit>
+
+ <!--  
+   -->
+
+ <!-- [ELDAR] 
+   -->
+
+ <!-- Avatar=0\n15\n2+\n+10\nSpear\n15\n1\n2+\n-3\n2\n1\n-\n-\n\n 
+   -->
+<Unit Name="Avatar">
+  <Cost>0</Cost>
+  <Move>15</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+10</CloseAssaultFactor>
+  <Weapon Name="Spear" Range="15" AttackDice="1" ToHit="2+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Dark Reaper=250\n5\n6+\n+1\nMissile launcher\n75\n2\n4+\n-1\n1\n4\n2\n\n\n 
+   -->
+<Unit Name="Dark Reaper">
+  <Cost>250</Cost>
+  <Move>5</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Missile launcher" Range="75" AttackDice="2" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Deathstalker=50\n25\n3+\n+1\nPrism cannon\n75\n1\n3+\n-2\n1\n1\n-\n-\nSpc, Skimmer\n 
+   -->
+<Unit Name="Deathstalker">
+  <Cost>50</Cost>
+  <Move>25</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Prism cannon" Range="75" AttackDice="1" ToHit="3+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Dire Avenger=100\n10\n-\n+2\nShurikens\n50\n1\n5+\n0\n1\n4\n2\n\n\n 
+   -->
+<Unit Name="Dire Avenger">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Shurikens" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Doomweaver=150\n25\n3+\n+1\nWire thread\nspc\nspc\nspc\nspc\n2\n2\n1\n\n\n 
+   -->
+<Unit Name="Doomweaver">
+  <Cost>150</Cost>
+  <Move>25</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Wire thread" Range="spc" AttackDice="spc" ToHit="spc" TargetSaveMod="spc"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Dreadnought=150\n10\n5+\n+2\nLascannon\n75\n1\n5+\n-2\n2\n4\n-\n-\nNearest order\n 
+   -->
+<Unit Name="Dreadnought">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>5+</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Lascannon" Range="75" AttackDice="1" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Falcon=300\n25\n3+\n+1\nLascannon\n75\n1\n4+\n-2\n3\n9\n5\n3\nCarries 2 Stands\n 
+   -->
+<Unit Name="Falcon">
+  <Cost>300</Cost>
+  <Move>25</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Lascannon" Range="75" AttackDice="1" ToHit="4+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Fire Dragons=100\n10\n-\n+2\nThermal gun\n25\n1\n5+\n-2\n1\n4\n2\n\n\n 
+   -->
+<Unit Name="Fire Dragons">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Thermal gun" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Guardians=150\n10\n-\n0\nShuriken\n50\n1\n5+\n0\n2\n6\n3\n3\n\n 
+   -->
+<Unit Name="Guardians">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Shuriken" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Howling Banshees=150\n10\n-\n+6\nPower sword\n-\n-\n-\n-\n1\n4\n2\n\nPsychic scream\n 
+   -->
+<Unit Name="Howling Banshees">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+6</CloseAssaultFactor>
+  <Weapon Name="Power sword" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Jet-Bike, Eldar=200\n35\n-\n+3\nShur Cannon\n15\n1\n5+\n-1\n2\n5\n3\n3\nSkimmer\n 
+   -->
+<Unit Name="Jet-Bike, Eldar">
+  <Cost>200</Cost>
+  <Move>35</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Shur Cannon" Range="15" AttackDice="1" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Jet-Bike, Vyper=250\n35\n-\n+3\nShur cannon\n25\n2\n5+\n-1\n3\n5\n3\n\nSkimmer\n 
+   -->
+<Unit Name="Jet-Bike, Vyper">
+  <Cost>250</Cost>
+  <Move>35</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Shur cannon" Range="25" AttackDice="2" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Lascannon, ag=100\n10\n-\n-3\nLascannon\n75\n1\n4+\n-2\n1\n3\n2\n\n\n 
+   -->
+<Unit Name="Lascannon, ag">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-3</CloseAssaultFactor>
+  <Weapon Name="Lascannon" Range="75" AttackDice="1" ToHit="4+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Striking Scorpions=150\n10\n-\n+6\nMandi-blaster\n-\n-*\n-\n-\n2\n4\n2\n\n3d6 in Combat\n 
+   -->
+<Unit Name="Striking Scorpions">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+6</CloseAssaultFactor>
+  <Weapon Name="Mandi-blaster" Range="-" AttackDice="-*" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Swooping Hawks=150\n20\n-\n0\nShuriken\n50\n1\n5+\n0\n2\n4\n2\n\n\n 
+   -->
+<Unit Name="Swooping Hawks">
+  <Cost>150</Cost>
+  <Move>20</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Shuriken" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Tempest=500\n25\n1+\n+4\nShuriken\n15\n1\n6+\n0\n5\n3\n2\n\nSkimmer\n 
+   -->
+<Unit Name="Tempest">
+  <Cost>500</Cost>
+  <Move>25</Move>
+  <SavingThrow>1+</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Shuriken" Range="15" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Tempest=\n\n\n\nShuriken cannon\n15\n2\n5+\n-1\n\n\n\n\n\n 
+   -->
+<Unit Name="Tempest">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Shuriken cannon" Range="15" AttackDice="2" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Tempest=\n\n\n\nTempest laser\n100\n2\n4+\n-3\n\n\n\n\n\n 
+   -->
+<Unit Name="Tempest">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Tempest laser" Range="100" AttackDice="2" ToHit="4+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nDistortion cannon\n75\n\n\n\n\n\n\n\nAs Warp hnt\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Distortion cannon" Range="75" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nLascannon\n75\n2\n3+\n-2\n\n\n\n\nWing\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Lascannon" Range="75" AttackDice="2" ToHit="3+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nMissile Launcher\n100\n4BP\n5+\n0\n\n\n\n\nWing\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Missile Launcher" Range="100" AttackDice="4BP" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan, Phantom=600\n20\nspc\n+12\nspc\nspc\nspc\nspc\nspc\n6\n1\n-\n-\n\n 
+   -->
+<Unit Name="Titan, Phantom">
+  <Cost>600</Cost>
+  <Move>20</Move>
+  <SavingThrow>spc</SavingThrow>
+  <CloseAssaultFactor>+12</CloseAssaultFactor>
+  <Weapon Name="spc" Range="spc" AttackDice="spc" ToHit="spc" TargetSaveMod="spc"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan, Warlock=750\n20\nspc\n+12\nspc\nspc\nspc\nspc\nspc\n8\n1\n-\n-\nPsychic power\n 
+   -->
+<Unit Name="Titan, Warlock">
+  <Cost>750</Cost>
+  <Move>20</Move>
+  <SavingThrow>spc</SavingThrow>
+  <CloseAssaultFactor>+12</CloseAssaultFactor>
+  <Weapon Name="spc" Range="spc" AttackDice="spc" ToHit="spc" TargetSaveMod="spc"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Vibro-Cannon=100\n10\n-\n-3\nVibro-cannon\n75\nspc\nspc\n-\n1\n3\n2\n\nTarget 5+; Interven 6+\n 
+   -->
+<Unit Name="Vibro-Cannon">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-3</CloseAssaultFactor>
+  <Weapon Name="Vibro-cannon" Range="75" AttackDice="spc" ToHit="spc" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- War Walker=150\n25\n-\n+1\nLascannon\n75\n1\n5+\n-2\n2\n3\n2\n3\n\n 
+   -->
+<Unit Name="War Walker">
+  <Cost>150</Cost>
+  <Move>25</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Lascannon" Range="75" AttackDice="1" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- War walker=\n\n\n\nScatter Laser\n25\n4\n5+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="War walker">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Scatter Laser" Range="25" AttackDice="4" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Warp Hunter=100\n25\n3+\n+1\nWarp cannon\n75\nspc\nspc\nspc\n1\n2\n1\n3\nScatter twice;skimmer\n 
+   -->
+<Unit Name="Warp Hunter">
+  <Cost>100</Cost>
+  <Move>25</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Warp cannon" Range="75" AttackDice="spc" ToHit="spc" TargetSaveMod="spc"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Wave Serpent=150\n25\n3+\n+1\nWarp wave\n2D6\n-\n4+\n-\n2\n2\n1\n3\n\n 
+   -->
+<Unit Name="Wave Serpent">
+  <Cost>150</Cost>
+  <Move>25</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Warp wave" Range="2D6" AttackDice="-" ToHit="4+" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Wraithguard=100\n10\n6+\n+4\nWraithcannon\n50\n1\n5+\n-1\n1\n4\n-\n-\nNearest order\n 
+   -->
+<Unit Name="Wraithguard">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Wraithcannon" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+</Army>
+ <!--  
+   -->
+
+ <!-- [IMPERIAL] 
+   -->
+
+<Army Name="Imperial">
+ <!-- Artillery Company=600\n-\n-\n-\n-\n-\n-\n-\n-\n6\n12\n6\n4\n1 HQ;1 Bombard bat.;2 Basilisk bat.\n 
+   -->
+<Unit Name="Artillery Company">
+  <Cost>600</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Assault Troop=\n15\n-\n+1\nPistol/sword\n25\n1\n5+\n0\n\n\n\n\nJump Pack\n 
+   -->
+<Unit Name="Assault Troop">
+  <Cost></Cost>
+  <Move>15</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Pistol/sword" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Baneblade=200\n10\n1+\n+8\nBattlecannon\n75\n2\n4+\n-2\n5\n5\n-\n4\n\n 
+   -->
+<Unit Name="Baneblade">
+  <Cost>200</Cost>
+  <Move>10</Move>
+  <SavingThrow>1+</SavingThrow>
+  <CloseAssaultFactor>+8</CloseAssaultFactor>
+  <Weapon Name="Battlecannon" Range="75" AttackDice="2" ToHit="4+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Baneblade=\n\n\n\nBolters\n15\n10\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Baneblade">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="10" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Baneblade=\n\n\n\nLascannon\n75\n2\n5+\n-1\n\n\n\n\n\n 
+   -->
+<Unit Name="Baneblade">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Lascannon" Range="75" AttackDice="2" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Basilisk=\n15\n5+\n0\nEarth shaker Art.Can\n150\n2BP\n\n-2\n\n\n\n\nfire 2 barag/t\n 
+   -->
+<Unit Name="Basilisk">
+  <Cost></Cost>
+  <Move>15</Move>
+  <SavingThrow>5+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Earth shaker Art.Can" Range="150" AttackDice="2BP" ToHit="" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Beastmen=200\n10\n-\n+3\nSword/club\n-\n-\n-\n0\n2\n10\n5\n4\n\n 
+   -->
+<Unit Name="Beastmen">
+  <Cost>200</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Sword/club" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Bombard=200\n10\n5+\n0\nSiege Mortar\n150\n3BP\n\n-3\n2\n3\n2\n4\nrange >50\n 
+   -->
+<Unit Name="Bombard">
+  <Cost>200</Cost>
+  <Move>10</Move>
+  <SavingThrow>5+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Siege Mortar" Range="150" AttackDice="3BP" ToHit="" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Capitol Imperialis=250\nX\nA1\n+10\nBehemoth\n25\n4BP\n\n-1\n3\n1\n1\n0\n2 Imp. guard\n 
+   -->
+<Unit Name="Capitol Imperialis">
+  <Cost>250</Cost>
+  <Move>X</Move>
+  <SavingThrow>A1</SavingThrow>
+  <CloseAssaultFactor>+10</CloseAssaultFactor>
+  <Weapon Name="Behemoth" Range="25" AttackDice="4BP" ToHit="" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Capitol Imperialis=\n\n\n\nBolters\n15\n8\n6+\n0\n\n\n\n\nCompanies\n 
+   -->
+<Unit Name="Capitol Imperialis">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="8" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Commisar=0\n10\n-\n+4\nPistol/sword\n25\n2\n5+\n0\n0\n2\n-\n-\ngive order to imp.\n 
+   -->
+<Unit Name="Commisar">
+  <Cost>0</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Pistol/sword" Range="25" AttackDice="2" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Company HQ=\n10\n-\n+2\nPistol/sword\n25\n2\n5+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Company HQ">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Pistol/sword" Range="25" AttackDice="2" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Deathstrike=250\n15\n6+\n0\nnone\nspc\nspc\nspc\nspc\n3\n3\n2\n4\nspc rule\n 
+   -->
+<Unit Name="Deathstrike">
+  <Cost>250</Cost>
+  <Move>15</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="none" Range="spc" AttackDice="spc" ToHit="spc" TargetSaveMod="spc"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Gorgon=500\n10\n1+\n+4\nBolters\n15\n4\n6+\n0\n5\n21\n11\n4\nSave 2x front\n 
+   -->
+<Unit Name="Gorgon">
+  <Cost>500</Cost>
+  <Move>10</Move>
+  <SavingThrow>1+</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="4" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Gorgon=\n\n\n\nMine thrower\n15\n1\n4+\n-3\n\n\n\n\ncarry 5\n 
+   -->
+<Unit Name="Gorgon">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Mine thrower" Range="15" AttackDice="1" ToHit="4+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Gorgon, Platoon=150\n\n\n\n\n\n\n\n\n2\n6\n3\n4\n\n 
+   -->
+<Unit Name="Gorgon, Platoon">
+  <Cost>150</Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Heavy Troops=\n10\n-\n0\nHvy. Weapons\n75\n2\n5+\n-1\n\n\n\n\nJump Pack\n 
+   -->
+<Unit Name="Heavy Troops">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Hvy. Weapons" Range="75" AttackDice="2" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Hellbore=1000\n15\n1+\n+12\nnone\n\n\n\n\n10\n31\n16\n\n30 stands, mv mx 15\n 
+   -->
+<Unit Name="Hellbore">
+  <Cost>1000</Cost>
+  <Move>15</Move>
+  <SavingThrow>1+</SavingThrow>
+  <CloseAssaultFactor>+12</CloseAssaultFactor>
+  <Weapon Name="none" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Hellhound=150\n15\n3+\n0\nFire Thrower\nTmp\n\n5+\n0\n2\n3\n2\n4\nignore to hit cover\n 
+   -->
+<Unit Name="Hellhound">
+  <Cost>150</Cost>
+  <Move>15</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Fire Thrower" Range="Tmp" AttackDice="" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Imperial Bike=100\n30\n-\n+3\nBolters\n15\n1\n6+\n0\n1\n5\n3\n4\n\n 
+   -->
+<Unit Name="Imperial Bike">
+  <Cost>100</Cost>
+  <Move>30</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Land Speeder=200\n30\n-\n+3\nMulti-melta\n25\n1\n3+\n-2\n2\n5\n3\n4\nSkimmer\n 
+   -->
+<Unit Name="Land Speeder">
+  <Cost>200</Cost>
+  <Move>30</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Multi-melta" Range="25" AttackDice="1" ToHit="3+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Leman Russ Tank=200\n20\n3+\n+2\nBattlecannon\n75\n1\n5+\n-2\n2\n3\n2\n4\n\n 
+   -->
+<Unit Name="Leman Russ Tank">
+  <Cost>200</Cost>
+  <Move>20</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Battlecannon" Range="75" AttackDice="1" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Leman Russ Tank=\n\n\n\nBolters\n15\n1\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Leman Russ Tank">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Leman Russ Tank=\n\n\n\nLascannon\n75\n1\n5+\n-1\n\n\n\n\n\n 
+   -->
+<Unit Name="Leman Russ Tank">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Lascannon" Range="75" AttackDice="1" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Leviathan=350\n10\n1\n12\nBattle cannon\n75\n1\n5+\n-2\n4\n1\n1\n0\n\n 
+   -->
+<Unit Name="Leviathan">
+  <Cost>350</Cost>
+  <Move>10</Move>
+  <SavingThrow>1</SavingThrow>
+  <CloseAssaultFactor>12</CloseAssaultFactor>
+  <Weapon Name="Battle cannon" Range="75" AttackDice="1" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Leviathan=\n\n\n\nBolters\n15\n12\n6+\n0\n\n\n\n\n4 VS\n 
+   -->
+<Unit Name="Leviathan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="12" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Leviathan=\n\n\n\nD-Day cannon\n200\nD6+\n3BP\n-3\n\n\n\n\nCompany\n 
+   -->
+<Unit Name="Leviathan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="D-Day cannon" Range="200" AttackDice="D6+" ToHit="3BP" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Leviathan=350\n\n\n\nLascannons\n75\n6\n5+\n-1\n4\n1\n-\n-\ncarry Imp.\n 
+   -->
+<Unit Name="Leviathan">
+  <Cost>350</Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Lascannons" Range="75" AttackDice="6" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Manticore=200\n15\n5+\n0\nRockets\n200\n6BP\n\n0\n2\n3\n2\n4\n1 turn\n 
+   -->
+<Unit Name="Manticore">
+  <Cost>200</Cost>
+  <Move>15</Move>
+  <SavingThrow>5+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Rockets" Range="200" AttackDice="6BP" ToHit="" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Mole=250\n15\n3+\n+3\nnone\n\n\n\n\n3\n11\n6\n4\n10 stands\n 
+   -->
+<Unit Name="Mole">
+  <Cost>250</Cost>
+  <Move>15</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="none" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Mole Mortar=100\n5\n-\n-3\nMole Mortar\n150\n1BP\n\n0\n1\n3\n2\n2\n\n 
+   -->
+<Unit Name="Mole Mortar">
+  <Cost>100</Cost>
+  <Move>5</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-3</CloseAssaultFactor>
+  <Weapon Name="Mole Mortar" Range="150" AttackDice="1BP" ToHit="" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Ogryns=100\n10\n6+\n+6\nRipper gun\n10\n1\n4+\n-1\n1\n4\n2\n3\n\n 
+   -->
+<Unit Name="Ogryns">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>+6</CloseAssaultFactor>
+  <Weapon Name="Ripper gun" Range="10" AttackDice="1" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Predator Tank=200\n25\n3+\n0\nAutocannon\n75\n1\n5+\n-1\n2\n3\n2\n2\n\n 
+   -->
+<Unit Name="Predator Tank">
+  <Cost>200</Cost>
+  <Move>25</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Autocannon" Range="75" AttackDice="1" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Predator Tank=\n\n\n\nLascannon\n75\n2\n5+\n-1\n\n\n\n\n\n 
+   -->
+<Unit Name="Predator Tank">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Lascannon" Range="75" AttackDice="2" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Rapier=50\n5\n-\n-3\nLas.Destroyer\n50\n1\n4+\n-1\n1\n3\n2\n2\n\n 
+   -->
+<Unit Name="Rapier">
+  <Cost>50</Cost>
+  <Move>5</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-3</CloseAssaultFactor>
+  <Weapon Name="Las.Destroyer" Range="50" AttackDice="1" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Ratling sniper=100\n10\n-\n-1\nSniper Rifle\n50\n1\n5+\n0\n1\n4\n4\n\nSpc rule\n 
+   -->
+<Unit Name="Ratling sniper">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-1</CloseAssaultFactor>
+  <Weapon Name="Sniper Rifle" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Reaver Titan=500\n20\nspc\n+12\n\n\n\n\n\n5\n1\n-\n-\n\n 
+   -->
+<Unit Name="Reaver Titan">
+  <Cost>500</Cost>
+  <Move>20</Move>
+  <SavingThrow>spc</SavingThrow>
+  <CloseAssaultFactor>+12</CloseAssaultFactor>
+  <Weapon Name="" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Rhino=\n25\n4+\n0\nBolters\n15\n1\n6+\n0\n\n\n\n\n2 stands\n 
+   -->
+<Unit Name="Rhino">
+  <Cost></Cost>
+  <Move>25</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Robot=100\n10\n5+\n+2\nAuto-cannon\n75\n1\n5+\n0\n1\n4\n-\n-\nspc rule\n 
+   -->
+<Unit Name="Robot">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>5+</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Auto-cannon" Range="75" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Rough Riders=150\n20\n-\n+3\nHunting Lance\n25\n1\n6+\n0\n2\n10\n5\n4\n\n 
+   -->
+<Unit Name="Rough Riders">
+  <Cost>150</Cost>
+  <Move>20</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Hunting Lance" Range="25" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Sentinel=100\n25\n6+\n+2\nAutocannon\n50\n1\n4+\n0\n1\n5\n3\n4\n\n 
+   -->
+<Unit Name="Sentinel">
+  <Cost>100</Cost>
+  <Move>25</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Autocannon" Range="50" AttackDice="1" ToHit="4+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Shadow Sword=\n10\n1+\n+6\nBolter\n15\n6\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Shadow Sword">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>1+</SavingThrow>
+  <CloseAssaultFactor>+6</CloseAssaultFactor>
+  <Weapon Name="Bolter" Range="15" AttackDice="6" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Shadow Sword=\n\n\n\nLascannon\n75\n2\n5+\n-1\n\n\n\n\nvs. Titan\n 
+   -->
+<Unit Name="Shadow Sword">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Lascannon" Range="75" AttackDice="2" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Shadow Sword=200\n\n\n\nVolcano cannon\n100\n1\n3+\n-4\n2\n1\n-\n4\nVolcano +3\n 
+   -->
+<Unit Name="Shadow Sword">
+  <Cost>200</Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Volcano cannon" Range="100" AttackDice="1" ToHit="3+" TargetSaveMod="-4"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Shadow Sword (C)=500\n\n\n\n\n\n\n\n\n5\n3\n2\n4\n\n 
+   -->
+<Unit Name="Shadow Sword (C)">
+  <Cost>500</Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Storm Hammer=200\n\n\n\nBolters\n15\n14\n6+\n0\n2\n1\n1\n4\nRear -1\n 
+   -->
+<Unit Name="Storm Hammer">
+  <Cost>200</Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="14" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Support platoon=200\n10\n-\n0\nHvy. weapons\n75\n2\n5+\n-1\n2\n5\n3\n4\n\n 
+   -->
+<Unit Name="Support platoon">
+  <Cost>200</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Hvy. weapons" Range="75" AttackDice="2" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Tactical Troop=\n10\n-\n0\nLasguns\n50\n1\n5+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Tactical Troop">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Lasguns" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Tarantula=100\n10\n-\n-3\nLas-cannons\n75\n1\n5+\n-2\n1\n5\n3\n2\ncharge, 2xfire\n 
+   -->
+<Unit Name="Tarantula">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-3</CloseAssaultFactor>
+  <Weapon Name="Las-cannons" Range="75" AttackDice="1" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Termite=150\n15\n4+\n+1\nnone\n\n\n\n\n2\n9\n5\n4\n2 stands\n 
+   -->
+<Unit Name="Termite">
+  <Cost>150</Cost>
+  <Move>15</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="none" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Thudd Gun=100\n5\n-\n-3\nThudd gun\n75\n2BP\n\n0\n1\n3\n2\n2\n\n 
+   -->
+<Unit Name="Thudd Gun">
+  <Cost>100</Cost>
+  <Move>5</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-3</CloseAssaultFactor>
+  <Weapon Name="Thudd gun" Range="75" AttackDice="2BP" ToHit="" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nBattle Claw\n0\n\nmax\n\n\n\n\n\nroll off against opponent\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Battle Claw" Range="0" AttackDice="" ToHit="max" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nCarapace multi-laser\n15\n2\n5\n0\n\n\n\n\nAlways ff\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Carapace multi-laser" Range="15" AttackDice="2" ToHit="5" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nCarpace Landin pad\n\n\n\n\n\n\n\n\nuse for recon land speeder\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Carpace Landin pad" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nChaos Titan tail\n\n\n\n\n\n\n\n\n+2 to CAF\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Chaos Titan tail" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nChaos energy whip\n0\n\n\n\n\n\n\n\ncc, hit on 4+ before combat\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Chaos energy whip" Range="0" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nCombat Head\n\n\n\n\n\n\n\n\nCC +3 p† CAF\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Combat Head" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nCorvus assault pod\n\n\n\n\n\n\n\n\nB‘rer 4 terminator stands\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Corvus assault pod" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nDeathstrike Cannon\n200\n10\nBP\n-2\n\n\n\n\nbarage\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Deathstrike Cannon" Range="200" AttackDice="10" ToHit="BP" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nFire control centre\n\n\n\n\n\n\n\n\n+1 p† hit, save 3+\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Fire control centre" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nHapoon missile\nunl\n-\naut\n-2\n\n\n\n\novertager m†l titan, one shoot\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Hapoon missile" Range="unl" AttackDice="-" ToHit="aut" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nInferno Gun\nspc\nspc\n4+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Inferno Gun" Range="spc" AttackDice="spc" ToHit="4+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nMissile launcher\nunl\n8\nBP\n-2\n\n\n\n\nplacere D6 extra templates, one shot\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Missile launcher" Range="unl" AttackDice="8" ToHit="BP" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nPlasma Blastgun\n50\n2\n3+\n-4\n\n\n\n\nrecharge\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Plasma Blastgun" Range="50" AttackDice="2" ToHit="3+" TargetSaveMod="-4"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nPower ram\n0\n-\n-\n-\n\n\n\n\ncc oponent v‘lter hvis vinder 6+\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Power ram" Range="0" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nPower saw\n0\n-\n-\n-\n\n\n\n\nadds +D6 til CAF\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Power saw" Range="0" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nTrident\n25\n1\n3+\n-\n\n\n\n\n\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Trident" Range="25" AttackDice="1" ToHit="3+" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nTurbo-Laser destruct\n75\n2\n3+\n-2\n\n\n\n\n\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Turbo-Laser destruct" Range="75" AttackDice="2" ToHit="3+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nVulcan mega-bolter\n25\n8\n4+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Vulcan mega-bolter" Range="25" AttackDice="8" ToHit="4+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nWarp missile\nunl\n-\na/3\n-\n\n\n\n\n\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Warp missile" Range="unl" AttackDice="-" ToHit="a/3" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nWeapon head\n25\n1\n5+\n-1\n\n\n\n\n\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Weapon head" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan=\n\n\n\nWrecker\n0\n-\n-\n-\n\n\n\n\ncc, get free strike\n 
+   -->
+<Unit Name="Titan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Wrecker" Range="0" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan, Reaver=500\n20\nspc\n+12\nspc\n\n\n\n\n5\n1\n-\n-\n\n 
+   -->
+<Unit Name="Titan, Reaver">
+  <Cost>500</Cost>
+  <Move>20</Move>
+  <SavingThrow>spc</SavingThrow>
+  <CloseAssaultFactor>+12</CloseAssaultFactor>
+  <Weapon Name="spc" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan, Warhound Scout=500\n25\nspc\n+8\n\n\n\n\n\n5\n2\n-\n-\n2 void\n 
+   -->
+<Unit Name="Titan, Warhound Scout">
+  <Cost>500</Cost>
+  <Move>25</Move>
+  <SavingThrow>spc</SavingThrow>
+  <CloseAssaultFactor>+8</CloseAssaultFactor>
+  <Weapon Name="" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Vindicator=150\n20\n2+\n+2\nThunderer\n50\n1\n4+\n-3\n2\n3\n2\n2\nIgnore th cover\n 
+   -->
+<Unit Name="Vindicator">
+  <Cost>150</Cost>
+  <Move>20</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Thunderer" Range="50" AttackDice="1" ToHit="4+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Whirlwind=150\n20\n4+\n0\nMulti-launcher\n150\n2BP\n\n0\n2\n3\n2\n2\nIndirect\n 
+   -->
+<Unit Name="Whirlwind">
+  <Cost>150</Cost>
+  <Move>20</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Multi-launcher" Range="150" AttackDice="2BP" ToHit="" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+</Army>
+ <!--  
+   -->
+
+ <!-- [MARINES] 
+   -->
+
+<Army Name="Marines">
+ <!-- Assault Company=750\n-\n-\n-\n-\n-\n-\n-\n-\n8\n29\n15\n2\n1 HQ;3 Assault det.\n 
+   -->
+<Unit Name="Assault Company">
+  <Cost>750</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Assault Marines=250\n15\n-\n+3\nPistol/sword\n25\n1\n5+\n0\n3\n6\n3\n2\nJump pack\n 
+   -->
+<Unit Name="Assault Marines">
+  <Cost>250</Cost>
+  <Move>15</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Pistol/sword" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Bike squad=100\n30\n-\n+3\nBolter\n15\n1\n6+\n0\n1\n5\n3\n4\n\n 
+   -->
+<Unit Name="Bike squad">
+  <Cost>100</Cost>
+  <Move>30</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Bolter" Range="15" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Blood Claws=\n15\n-\n+3\nBolt Pistols\n25\n1\n5+\n0\n\n\n\n\nMoral when charge\n 
+   -->
+<Unit Name="Blood Claws">
+  <Cost></Cost>
+  <Move>15</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Bolt Pistols" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Chaplain=50\n10\n-\n+4\nBolt pistol\n25\n2\n5+\n0\n1\n1\n-\n-\ntroop <10cm +1 CAF\n 
+   -->
+<Unit Name="Chaplain">
+  <Cost>50</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Bolt pistol" Range="25" AttackDice="2" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Dark Angel Deathwing=900\n-\n-\n-\n-\n-\n-\n-\n-\n9\n20\n10\n1\n1 HQ;3 Terminat det.\n 
+   -->
+<Unit Name="Dark Angel Deathwing">
+  <Cost>900</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Dark Angel, Ravenwing=400\n-\n-\n-\n-\n-\n-\n-\n-\n4\n17\n9\n2\n1 HQ;1 Bike squad;2 Land spdr\n 
+   -->
+<Unit Name="Dark Angel, Ravenwing">
+  <Cost>400</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Devastator=350\n10\n-\n+2\nHvy Weapons\n75\n2\n5+\n-1\n4\n6\n5\n2\n3 Rhino\n 
+   -->
+<Unit Name="Devastator">
+  <Cost>350</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Hvy Weapons" Range="75" AttackDice="2" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Dreadnought=100\n10\n5+\n+2\nAuto-cannon\n75\n1\n5+\n0\n1\n4\n2\n2\n\n 
+   -->
+<Unit Name="Dreadnought">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>5+</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Auto-cannon" Range="75" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Grey Hunters=\n10\n-\n+3\nBolt weapons\n50\n1\n5+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Grey Hunters">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Bolt weapons" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Grey Knights=\n10\nF6+\n+6\nVarious\n35\n2\n4+\n-1\n\n\n\n\nPsychic save 4+\n 
+   -->
+<Unit Name="Grey Knights">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>F6+</SavingThrow>
+  <CloseAssaultFactor>+6</CloseAssaultFactor>
+  <Weapon Name="Various" Range="35" AttackDice="2" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- HQ unit=\n10\n-\n+4\nBolt pistols\n25\n2\n5+\n0\n\n\n\n\nImp <10cm +1 Moral\n 
+   -->
+<Unit Name="HQ unit">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Bolt pistols" Range="25" AttackDice="2" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Inqusitor=100\n10\nF4+\n+6\nVarious\n35\n2\n4+\n-1\n1\n1\n-\n-\nPsychic save 4+;Imp <25 Moral Auto\n 
+   -->
+<Unit Name="Inqusitor">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>F4+</SavingThrow>
+  <CloseAssaultFactor>+6</CloseAssaultFactor>
+  <Weapon Name="Various" Range="35" AttackDice="2" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Land Raider=200\n\n\n\nBolter\n15\n1\n6+\n0\n2\n3\n2\n2\n\n 
+   -->
+<Unit Name="Land Raider">
+  <Cost>200</Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Bolter" Range="15" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Land Raider=\n20\n2+\n+3\nLascannon\n75\n2\n5+\n-2\n\n\n\n\nCarry 2\n 
+   -->
+<Unit Name="Land Raider">
+  <Cost></Cost>
+  <Move>20</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Lascannon" Range="75" AttackDice="2" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Land speeder=200\n30\n-\n+3\nMulti-melta\n25\n1\n3+\n-2\n2\n5\n3\n4\nSkimmer\n 
+   -->
+<Unit Name="Land speeder">
+  <Cost>200</Cost>
+  <Move>30</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Multi-melta" Range="25" AttackDice="1" ToHit="3+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Librarian=100\n10\n-\n+4\nBolt pistol\n25\n1\n5+\n0\n1\n1\n1\n-\nCommand unit\n 
+   -->
+<Unit Name="Librarian">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Bolt pistol" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Long Fangs=250\n10\n-\n+3\nHvy. Weapons\n50\n2\n5+\n-1\n3\n6\n6\n2\nmed 2 Rhino\n 
+   -->
+<Unit Name="Long Fangs">
+  <Cost>250</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Hvy. Weapons" Range="50" AttackDice="2" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Medic=50\n10\n-\n+2\nBolt pistol\n25\n1\n5+\n0\n1\n1\n-\n-\nImp. <10cm save 5+\n 
+   -->
+<Unit Name="Medic">
+  <Cost>50</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Bolt pistol" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Pod, Assault=0\nsp\n4+\n0\nNone\n\n\n\n\n\n\n\n\n2 stands\n 
+   -->
+<Unit Name="Pod, Assault">
+  <Cost>0</Cost>
+  <Move>sp</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="None" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Pod, Deathwind=\nsp\n4+\n0\nBombs\n10\nspc\n4+\n\n\n\n\n\nspc rule\n 
+   -->
+<Unit Name="Pod, Deathwind">
+  <Cost></Cost>
+  <Move>sp</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Bombs" Range="10" AttackDice="spc" ToHit="4+" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Pod, support=\nsp\n4+\n0\nPlasma cannon\n75\n1\n5+\n-2\n\n\n\n\n\n 
+   -->
+<Unit Name="Pod, support">
+  <Cost></Cost>
+  <Move>sp</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Plasma cannon" Range="75" AttackDice="1" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Predator Tank=200\n25\n3+\n0\nAutocannon\n75\n1\n5+\n-1\n2\n3\n2\n2\n\n 
+   -->
+<Unit Name="Predator Tank">
+  <Cost>200</Cost>
+  <Move>25</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Autocannon" Range="75" AttackDice="1" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Predator tank=\n\n\n\nLascannon\n75\n2\n5+\n-1\n\n\n\n\n\n 
+   -->
+<Unit Name="Predator tank">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Lascannon" Range="75" AttackDice="2" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Rapier=50\n5\n-\n-3\nLas.Destroyer\n50\n1\n4+\n-1\n1\n3\n2\n2\n\n 
+   -->
+<Unit Name="Rapier">
+  <Cost>50</Cost>
+  <Move>5</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-3</CloseAssaultFactor>
+  <Weapon Name="Las.Destroyer" Range="50" AttackDice="1" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Rhino=\n25\n4+\n0\nBolters\n15\n1\n6+\n0\n\n\n\n\nCarrie 2 stands\n 
+   -->
+<Unit Name="Rhino">
+  <Cost></Cost>
+  <Move>25</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Robot=100\n10\n5+\n+2\nAuto-cannon\n75\n1\n5+\n0\n1\n4\n4\n-\nspc mv\n 
+   -->
+<Unit Name="Robot">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>5+</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Auto-cannon" Range="75" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Scouts, Marine=150\n10\n-\n+2\nBolt pistols\n50\n1\n5+\n0\n2\n6\n3\n3\n\n 
+   -->
+<Unit Name="Scouts, Marine">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Bolt pistols" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Tarantula=100\n10\n-\n-3\nLas-cannon\n75\n1\n5+\n-2\n1\n5\n3\n2\ncharge, 2xfire\n 
+   -->
+<Unit Name="Tarantula">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-3</CloseAssaultFactor>
+  <Weapon Name="Las-cannon" Range="75" AttackDice="1" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Tatical Marines=250\n10\n-\n+2\nBolters\n50\n1\n5+\n0\n3\n6\n5\n2\nmed 3 Rhino\n 
+   -->
+<Unit Name="Tatical Marines">
+  <Cost>250</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Tech-Marine=100\n10\n-\n+2\npistol\n25\n1\n5+\n0\n1\n1\n-\n-\nImp. vehicle save 5+\n 
+   -->
+<Unit Name="Tech-Marine">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="pistol" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Terminator HQ=\n10\nF6+\n+7\nStorm bolters\n25\n2\n4+\n-1\n\n\n\n\nImp. <10 +1 moral\n 
+   -->
+<Unit Name="Terminator HQ">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>F6+</SavingThrow>
+  <CloseAssaultFactor>+7</CloseAssaultFactor>
+  <Weapon Name="Storm bolters" Range="25" AttackDice="2" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Terminators=\n10\nF6+\n+6\nStorm bolters\n25\n2\n4+\n-1\n\n\n\n\n\n 
+   -->
+<Unit Name="Terminators">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>F6+</SavingThrow>
+  <CloseAssaultFactor>+6</CloseAssaultFactor>
+  <Weapon Name="Storm bolters" Range="25" AttackDice="2" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Thudd Gun=100\n5\n-\n-3\nThudd gun\n75\n2BP\n\n0\n1\n3\n2\n2\n\n 
+   -->
+<Unit Name="Thudd Gun">
+  <Cost>100</Cost>
+  <Move>5</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-3</CloseAssaultFactor>
+  <Weapon Name="Thudd gun" Range="75" AttackDice="2BP" ToHit="" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Thunderhawk=50\n60\n4+\n0\nBattle cannon\n50\n1\n4+\n2-\n1\n1\n-\n2\nCarrie 6 stands\n 
+   -->
+<Unit Name="Thunderhawk">
+  <Cost>50</Cost>
+  <Move>60</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Battle cannon" Range="50" AttackDice="1" ToHit="4+" TargetSaveMod="2-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Thunderhawk=\n\n\n\nBolters\n15\n3\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Thunderhawk">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="3" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Thunderhawk=\n\n\n\nRockets\n50\n6BP\n-\n-2\n\n\n\n\n\n 
+   -->
+<Unit Name="Thunderhawk">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Rockets" Range="50" AttackDice="6BP" ToHit="-" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Veterans, Marine=300\n10\n-\n+4\nBolters\n50\n1\n5+\n0\n3\n6\n5\n1\n3 Rhino\n 
+   -->
+<Unit Name="Veterans, Marine">
+  <Cost>300</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Vindicator=150\n20\n2+\n+2\nThunderer\n50\n1\n4+\n-3\n2\n3\n2\n2\nIgnore cover\n 
+   -->
+<Unit Name="Vindicator">
+  <Cost>150</Cost>
+  <Move>20</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Thunderer" Range="50" AttackDice="1" ToHit="4+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Whirlwind=150\n20\n4+\n0\nMulti-launcher\n150\n2BP\n\n0\n2\n3\n2\n2\nIndirect\n 
+   -->
+<Unit Name="Whirlwind">
+  <Cost>150</Cost>
+  <Move>20</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Multi-launcher" Range="150" AttackDice="2BP" ToHit="" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Wolf Guard=\n10\n-\n+4\nBolt pistol\n25\n2\n5+\n0\n\n\n\n\nImp. <10 +1 Moral\n 
+   -->
+<Unit Name="Wolf Guard">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Bolt pistol" Range="25" AttackDice="2" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Wolf Guard Terminators=\n10\nF6+\n+6\nStorm bolters\n25\n2\n4+\n-1\n\n\n\n\nImp. <10 +1 Moral\n 
+   -->
+<Unit Name="Wolf Guard Terminators">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>F6+</SavingThrow>
+  <CloseAssaultFactor>+6</CloseAssaultFactor>
+  <Weapon Name="Storm bolters" Range="25" AttackDice="2" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+</Army>
+ <!--  
+   -->
+
+ <!-- [ORC] 
+   -->
+
+<Army Name="Orc">
+ <!-- Battlewagon=\n25\n4+\n+1\nAutocannon\n50\n1\n5+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Battlewagon">
+  <Cost></Cost>
+  <Move>25</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Autocannon" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Bikeboyz=\n30\n-\n+3\nBolters\n15\n1\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Bikeboyz">
+  <Cost></Cost>
+  <Move>30</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Boarboyz=\n20\n-\n+4\nbolters\n15\n1\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Boarboyz">
+  <Cost></Cost>
+  <Move>20</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="bolters" Range="15" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Bonebreaka=\n20\n4+\n+4\nBattlecannon\n75\n1\n4+\n-2\n\n\n\n\nDeathroller\n 
+   -->
+<Unit Name="Bonebreaka">
+  <Cost></Cost>
+  <Move>20</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Battlecannon" Range="75" AttackDice="1" ToHit="4+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Bonecruncha=\n20\n4+\n+4\nAutocannon\n50\n2\n5+\n-1\n\n\n\n\nDeathroller\n 
+   -->
+<Unit Name="Bonecruncha">
+  <Cost></Cost>
+  <Move>20</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Autocannon" Range="50" AttackDice="2" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Bowel Burna=\n30\n5+\n+1\nSchorcher\n15\n1\n4+\n0\n\n\n\n\nIgn cover, Evil Sunz\n 
+   -->
+<Unit Name="Bowel Burna">
+  <Cost></Cost>
+  <Move>30</Move>
+  <SavingThrow>5+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Schorcher" Range="15" AttackDice="1" ToHit="4+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Boyz, Bad=600\n10\n-\n+1\nBolter\n50\n1\n5+\n-2\n6\n19\n10\n4\nBad Moonz\n 
+   -->
+<Unit Name="Boyz, Bad">
+  <Cost>600</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Bolter" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Boyz, Blood=600\n10\n-\n+1\nBolter\n50\n1\n5+\n0\n6\n24\n9\n4\nBlood Axe\n 
+   -->
+<Unit Name="Boyz, Blood">
+  <Cost>600</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Bolter" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Boyz, Death=500\n10\n-\n+1\nBolter\n50\n1\n5+\n0\n5\n19\n10\n4\nDeath Skulls\n 
+   -->
+<Unit Name="Boyz, Death">
+  <Cost>500</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Bolter" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Boyz, Evil=600\n10\n-\n+1\nBolter\n50\n1\n5+\n0\n6\n22\n11\n4\nEvil Sunz\n 
+   -->
+<Unit Name="Boyz, Evil">
+  <Cost>600</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Bolter" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Boyz, Goffs=650\n10\n-\n+3\nBolter\n25\n1\n5+\n-1\n7\n23\n12\n4\nGoffs\n 
+   -->
+<Unit Name="Boyz, Goffs">
+  <Cost>650</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Bolter" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Boyz, Snake=600\n10\n-\n+2\nBolter\n50\n1\n5+\n0\n5\n24\n12\n4\nSnakebite\n 
+   -->
+<Unit Name="Boyz, Snake">
+  <Cost>600</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Bolter" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Braincrusha=\n15\n4+\n0\nBrain. can.\n100\n1\n3+\n-3\n\n\n\n\n\n 
+   -->
+<Unit Name="Braincrusha">
+  <Cost></Cost>
+  <Move>15</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Brain. can." Range="100" AttackDice="1" ToHit="3+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Bubble Chukka=\n25\nspc\n+2\nBubble chukka\n50\n\n\n\n\n\n\n\nMv+2D6,spc\n 
+   -->
+<Unit Name="Bubble Chukka">
+  <Cost></Cost>
+  <Move>25</Move>
+  <SavingThrow>spc</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Bubble chukka" Range="50" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Dreadnought=\n10\n6+\n+3\nAutocannon\n50\n2\n5+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Dreadnought">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Autocannon" Range="50" AttackDice="2" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Freebooterz=\n10\n-\n+1\nBolter\n50\n1\n5+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Freebooterz">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Bolter" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Giblet grinda=\n15\n1+\n+8\nAutocannon\n50\n5\n5+\n-1\n\n\n\n\nCar.5, Deathrol\n 
+   -->
+<Unit Name="Giblet grinda">
+  <Cost></Cost>
+  <Move>15</Move>
+  <SavingThrow>1+</SavingThrow>
+  <CloseAssaultFactor>+8</CloseAssaultFactor>
+  <Weapon Name="Autocannon" Range="50" AttackDice="5" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Gobsmascha=\n25\n5+\n0\nAutocannon\n50\n1\n5+\n0\n\n\n\n\nEvil Sunz\n 
+   -->
+<Unit Name="Gobsmascha">
+  <Cost></Cost>
+  <Move>25</Move>
+  <SavingThrow>5+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Autocannon" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Gretchin=\n10\n-\n-1\nShotguns\n15\n1\n4+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Gretchin">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-1</CloseAssaultFactor>
+  <Weapon Name="Shotguns" Range="15" AttackDice="1" ToHit="4+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Gutrippa=\n20\n3+\n+4\nBattlecannon\n50\n1\n5+\n-2\n\n\n\n\nGoffs\n 
+   -->
+<Unit Name="Gutrippa">
+  <Cost></Cost>
+  <Move>20</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Battlecannon" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Hop splat gun=\n10\n-\n-3\nHop-splat\n50\n1B\n\n-1\n\n\n\n\nMv chg\n 
+   -->
+<Unit Name="Hop splat gun">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-3</CloseAssaultFactor>
+  <Weapon Name="Hop-splat" Range="50" AttackDice="1B" ToHit="" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Lifta Dropa=\n20\nspc\n+2\nLifta droppa\n75\n1\n4+\n-4\n\n\n\n\nMv+2D6, spc.\n 
+   -->
+<Unit Name="Lifta Dropa">
+  <Cost></Cost>
+  <Move>20</Move>
+  <SavingThrow>spc</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Lifta droppa" Range="75" AttackDice="1" ToHit="4+" TargetSaveMod="-4"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Lungbursta=\n20\n3+\n+1\nBattlecannon\n50\n1\n5+\n-2\n\n\n\n\nGoffs\n 
+   -->
+<Unit Name="Lungbursta">
+  <Cost></Cost>
+  <Move>20</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Battlecannon" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Madboyz=\n10\n-\n+1\nBolters\n50\n1\n5+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Madboyz">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Meboy Speedsta=\n30\nspc\n+3\nDestruktor Rokkit\n75\nspc\nbrg\n-2\n\n\n\n\nspc\n 
+   -->
+<Unit Name="Meboy Speedsta">
+  <Cost></Cost>
+  <Move>30</Move>
+  <SavingThrow>spc</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Destruktor Rokkit" Range="75" AttackDice="spc" ToHit="brg" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Mekboy Dragster=\n35\n3+\n+2\nDeflektor Shield\n\n\n\n\n\n\n\n\nMv+2D6, spc\n 
+   -->
+<Unit Name="Mekboy Dragster">
+  <Cost></Cost>
+  <Move>35</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Deflektor Shield" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Mekboy Pulsa Rokkit=\n5\n4+\n0\nRokkit\n50\n\n\n\n\n\n\n\nRng+1-20D6\n 
+   -->
+<Unit Name="Mekboy Pulsa Rokkit">
+  <Cost></Cost>
+  <Move>5</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Rokkit" Range="50" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Mekboy Speedsta=\n\n\n\nKustom Kannon\n75\nspc\nbrg\n-2\n\n\n\n\nspc., Mv+2D6\n 
+   -->
+<Unit Name="Mekboy Speedsta">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Kustom Kannon" Range="75" AttackDice="spc" ToHit="brg" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Mekboy TinBotz=\n10\n4+\n+4\nAutocannon\n25\n2\n4+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Mekboy TinBotz">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Autocannon" Range="25" AttackDice="2" ToHit="4+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Nobz=200\n10\n-\n+4\nBolters\n50\n2\n5+\n-2\n+2\n4\nsp\n\nCU, add 2 break\n 
+   -->
+<Unit Name="Nobz">
+  <Cost>200</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="50" AttackDice="2" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Nobz Warbike=\n30\n6+\n+5\nBolters\n25\n2\n5+\n-2\n\n\n\n\nCU\n 
+   -->
+<Unit Name="Nobz Warbike">
+  <Cost></Cost>
+  <Move>30</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>+5</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="25" AttackDice="2" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Scorcher=\n30\n6+\n+1\nSchorcher\n15\n1\n4+\n0\n\n\n\n\nign cover\n 
+   -->
+<Unit Name="Scorcher">
+  <Cost></Cost>
+  <Move>30</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Schorcher" Range="15" AttackDice="1" ToHit="4+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Shokk Attack Gun=\n10\n-\n0\nShokk Attack gun\nUL\nspc\n\n\n\n\n\n\nspc\n 
+   -->
+<Unit Name="Shokk Attack Gun">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Shokk Attack gun" Range="UL" AttackDice="spc" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Skullhamma=\n15\n1+A\n+4\nBattlecannon\n75\n2\n4+\n-2\n\n\n\n\nCar.5, 3xchrg\n 
+   -->
+<Unit Name="Skullhamma">
+  <Cost></Cost>
+  <Move>15</Move>
+  <SavingThrow>1+A</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Battlecannon" Range="75" AttackDice="2" ToHit="4+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Spleenrippa=\n30\n5+\n0\nBattlecannon\n75\n1\n4+\n-2\n\n\n\n\nEvil Sunz\n 
+   -->
+<Unit Name="Spleenrippa">
+  <Cost></Cost>
+  <Move>30</Move>
+  <SavingThrow>5+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Battlecannon" Range="75" AttackDice="1" ToHit="4+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Squig Katapult=\n15\n3+\n+1\nBuzz Squig\n50\nspc\n\n+1\n\n\n\n\nmay move\n 
+   -->
+<Unit Name="Squig Katapult">
+  <Cost></Cost>
+  <Move>15</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Buzz Squig" Range="50" AttackDice="spc" ToHit="" TargetSaveMod="+1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Squig Katapult=\n\n\n\nTower cannon\n25\n2\n5+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Squig Katapult">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Tower cannon" Range="25" AttackDice="2" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Squiggoth=\n10\n3+\n+5\nBombard\n50\n2\n4+\n0\n\n\n\n\nrun 2D6 whn dead\n 
+   -->
+<Unit Name="Squiggoth">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>3+</SavingThrow>
+  <CloseAssaultFactor>+5</CloseAssaultFactor>
+  <Weapon Name="Bombard" Range="50" AttackDice="2" ToHit="4+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Squiggoth=\n\n\n\nSwivel guns\n25\n3\n5+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Squiggoth">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Swivel guns" Range="25" AttackDice="3" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Stomper=\n10\n1+\n+8\nBattlcannon\n50\n1\n3+\n-4\n\n\n\n\nMob no moral\n 
+   -->
+<Unit Name="Stomper">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>1+</SavingThrow>
+  <CloseAssaultFactor>+8</CloseAssaultFactor>
+  <Weapon Name="Battlcannon" Range="50" AttackDice="1" ToHit="3+" TargetSaveMod="-4"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Stomper=\n\n\n\nBolter\n15\n4\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Stomper">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Bolter" Range="15" AttackDice="4" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Stormboyz=\n10\n-\n+1\nBolters\n50\n1\n5+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Stormboyz">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Tinbot=\n10\n4+\n+4\nAutocannon\n25\n2\n4+\n0\n\n\n\n\nco.mark i slut move fase\n 
+   -->
+<Unit Name="Tinbot">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Autocannon" Range="25" AttackDice="2" ToHit="4+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Trakto Kannon=\n15\n-\n0\nTraktor Kannon\n50\n1\n5+\n-1\n\n\n\n\n\n 
+   -->
+<Unit Name="Trakto Kannon">
+  <Cost></Cost>
+  <Move>15</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Traktor Kannon" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- War Buggy=\n30\n6+\n+2\nAutocannon\n25\n1\n5+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="War Buggy">
+  <Cost></Cost>
+  <Move>30</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Autocannon" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Warboss=\n10\n-\n+5\nBolter\n50\n2\n5+\n-2\n\n\n\n\nCommand unit\n 
+   -->
+<Unit Name="Warboss">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+5</CloseAssaultFactor>
+  <Weapon Name="Bolter" Range="50" AttackDice="2" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Warlord=\n10\n-\n+7\nBolter\n50\n2\n4+\n-2\n\n\n\n\nCU\n 
+   -->
+<Unit Name="Warlord">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+7</CloseAssaultFactor>
+  <Weapon Name="Bolter" Range="50" AttackDice="2" ToHit="4+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Wartrack=\n30\n6+\n+1\nAutocannon\n50\n1\n5+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Wartrack">
+  <Cost></Cost>
+  <Move>30</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Autocannon" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Weirdboy Tower=\n25\n4+\n+1\n-\n\n\n\n\n\n\n\n\nSpc\n 
+   -->
+<Unit Name="Weirdboy Tower">
+  <Cost></Cost>
+  <Move>25</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="-" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Wildboyz=\n10\n-\n+3\nAxes\n-\n-\n-\n-\n\n\n\n\n\n 
+   -->
+<Unit Name="Wildboyz">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Axes" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+</Army>
+ <!--  
+   -->
+
+ <!-- [SQUAT] 
+   -->
+
+<Army Name="Squat">
+ <!-- Air attack corps=700\n-\n-\n-\n-\n-\n-\n-\n-\n7\n3\n2\n2\n3 x Overlord\n 
+   -->
+<Unit Name="Air attack corps">
+  <Cost>700</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Berserker=150\n10\n-\n+2\nBolt pistols\n25\n1\n5+\n0\n2\n5\n4\n2\n\n 
+   -->
+<Unit Name="Berserker">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Bolt pistols" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Colossus=500\nX\nA1+\n+12\nBattlecannon\n75\n8\n4+\n-2\n5\n1\n1\n1\ncarry 30\n 
+   -->
+<Unit Name="Colossus">
+  <Cost>500</Cost>
+  <Move>X</Move>
+  <SavingThrow>A1+</SavingThrow>
+  <CloseAssaultFactor>+12</CloseAssaultFactor>
+  <Weapon Name="Battlecannon" Range="75" AttackDice="8" ToHit="4+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Colossus=\n\n\n\nBolters\n15\n16\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Colossus">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="16" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Colossus=\n\n\n\nD. Cannon\n200\nD6\n3BP\n-3\n\n\n\n\nrecon copt\n 
+   -->
+<Unit Name="Colossus">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="D. Cannon" Range="200" AttackDice="D6" ToHit="3BP" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Colossus=\n\n\n\nMissiles\n100\n\n6BP\n\n\n\n\n\n\n 
+   -->
+<Unit Name="Colossus">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Missiles" Range="100" AttackDice="" ToHit="6BP" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Colossus=\n\n\n\nThunderer\n50\n1\n3+\n-3\n\n\n\n\n\n 
+   -->
+<Unit Name="Colossus">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Thunderer" Range="50" AttackDice="1" ToHit="3+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Goliath Mega-cannon=150\nX\n5+\n0\nHowitzer\n250\nD6+\n4BP\n-3\n2\n1\n1\n2\nIgnr cvr, >50\n 
+   -->
+<Unit Name="Goliath Mega-cannon">
+  <Cost>150</Cost>
+  <Move>X</Move>
+  <SavingThrow>5+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Howitzer" Range="250" AttackDice="D6+" ToHit="4BP" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Goliath battery=450\n-\n-\n-\n-\n-\n-\n-\n-\n5\n3\n2\n2\n3 x Goliath cannon\n 
+   -->
+<Unit Name="Goliath battery">
+  <Cost>450</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Grand battery=400\n-\n-\n-\n-\n-\n-\n-\n-\n4\n15\n12\n2\n1 x Thudd gun; 2 x mole motar\n 
+   -->
+<Unit Name="Grand battery">
+  <Cost>400</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Grand warlord=150\n10\n6+\n+6\nBolters\n50\n2\n5+\n-2\n2\n\n2\n-\nCommand\n 
+   -->
+<Unit Name="Grand warlord">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>+6</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="50" AttackDice="2" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Guild biker force=600\n-\n-\n-\n-\n-\n-\n-\n-\n6\n22\n17\n2\n2 x bike squad;1 x trike squad\n 
+   -->
+<Unit Name="Guild biker force">
+  <Cost>600</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Guild bikers=200\n30\n-\n+4\nBolters\n15\n1\n6+\n0\n2\n8\n6\n2\n\n 
+   -->
+<Unit Name="Guild bikers">
+  <Cost>200</Cost>
+  <Move>30</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Guild trike=200\n30\n-\n+4\nMulti-melta\n25\n1\n3+\n-2\n2\n6\n5\n2\n\n 
+   -->
+<Unit Name="Guild trike">
+  <Cost>200</Cost>
+  <Move>30</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Multi-melta" Range="25" AttackDice="1" ToHit="3+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Gyrocopter=200\n40\n4+\n+3\nAutocannon\n50\n2\n5+\n0\n2\n3\n2\n2\nSkimmer\n 
+   -->
+<Unit Name="Gyrocopter">
+  <Cost>200</Cost>
+  <Move>40</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Autocannon" Range="50" AttackDice="2" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Gyrocopter=\n\n\n\nBattlecannon\n50\n1\n5+\n-2\n\n\n\n\n\n 
+   -->
+<Unit Name="Gyrocopter">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Battlecannon" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Hearthguard=\n10\n6+\n+6\nBolters/pistols\n50\n1\n5+\n-2\n\n\n\n\n\n 
+   -->
+<Unit Name="Hearthguard">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>+6</CloseAssaultFactor>
+  <Weapon Name="Bolters/pistols" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Iron Eagle Wing=550\n-\n-\n-\n-\n-\n-\n-\n-\n6\n9\n7\n2\n3 x Gyro sqad\n 
+   -->
+<Unit Name="Iron Eagle Wing">
+  <Cost>550</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Iron-breaker squadron=900\n-\n-\n-\n-\n-\n-\n-\n-\n9\n23\n18\n2\n1 Leviathan; 1 War unit;2 Berserk unit\n 
+   -->
+<Unit Name="Iron-breaker squadron">
+  <Cost>900</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- LT, Engine=\n10\n1+A\n+6\nBattlecannon\n75\n4\n4+\n-2\n\n\n\n\n2 V shld\n 
+   -->
+<Unit Name="LT, Engine">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>1+A</SavingThrow>
+  <CloseAssaultFactor>+6</CloseAssaultFactor>
+  <Weapon Name="Battlecannon" Range="75" AttackDice="4" ToHit="4+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- LT, Engine=\n\n\n\nBolters\n15\n8\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="LT, Engine">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="8" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- LT, Engine=\n\n\n\nDoomsday cannon\n200\n3BP\n+D6\n-3\n\n\n\n\n\n 
+   -->
+<Unit Name="LT, Engine">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Doomsday cannon" Range="200" AttackDice="3BP" ToHit="+D6" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- LT, Mortar=\n5\n2+A\n+3\nBolters\n15\n2\n6+\n0\n\n\n\n\n1 Void shld\n 
+   -->
+<Unit Name="LT, Mortar">
+  <Cost></Cost>
+  <Move>5</Move>
+  <SavingThrow>2+A</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="2" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- LT, Mortar=\n\n\n\nSiege Mortar\nspc\n6BP\n4+\n-3\n\n\n\n\n50-150\n 
+   -->
+<Unit Name="LT, Mortar">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Siege Mortar" Range="spc" AttackDice="6BP" ToHit="4+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Leviathan=350\nX\n1+A\n+12\nBattlecannon\n75\n1\n5+\n-2\n4\n1\n1\n1\ncarr 30\n 
+   -->
+<Unit Name="Leviathan">
+  <Cost>350</Cost>
+  <Move>X</Move>
+  <SavingThrow>1+A</SavingThrow>
+  <CloseAssaultFactor>+12</CloseAssaultFactor>
+  <Weapon Name="Battlecannon" Range="75" AttackDice="1" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Leviathan=\n\n\n\nBolters\n15\n12\n6+\n0\n\n\n\n\n4 void sh\n 
+   -->
+<Unit Name="Leviathan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Bolters" Range="15" AttackDice="12" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Leviathan=\n\n\n\nD. cannon\n200\nD6+\n3BP\n-3\n\n\n\n\n\n 
+   -->
+<Unit Name="Leviathan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="D. cannon" Range="200" AttackDice="D6+" ToHit="3BP" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Leviathan=\n\n\n\nLascannon\n75\n6\n5+\n-1\n\n\n\n\n\n 
+   -->
+<Unit Name="Leviathan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Lascannon" Range="75" AttackDice="6" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Living ancestor=100\n10\n6+\n0\nLaspistol\n25\n1\n5+\n0\n1\n1\n1\n-\ncommand\n 
+   -->
+<Unit Name="Living ancestor">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Laspistol" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Robot=100\n10\n5+\n+2\nAutocannon\n75\n1\n5+\n0\n1\n5\n5\n-\nspc rule\n 
+   -->
+<Unit Name="Robot">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>5+</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Autocannon" Range="75" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Thunderer=300\n10\n-\n+1\nHvy Bolters\n75\n3\n5+\n-1\n3\n5\n4\n2\n\n 
+   -->
+<Unit Name="Thunderer">
+  <Cost>300</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Hvy Bolters" Range="75" AttackDice="3" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Warlord=\n10\n6+\n+6\nBolters/pistols\n50\n2\n5+\n-2\n\n\n\n\nCU\n 
+   -->
+<Unit Name="Warlord">
+  <Cost></Cost>
+  <Move>10</Move>
+  <SavingThrow>6+</SavingThrow>
+  <CloseAssaultFactor>+6</CloseAssaultFactor>
+  <Weapon Name="Bolters/pistols" Range="50" AttackDice="2" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Warrior=250\n10\n-\n0\nLasguns\n50\n1\n5+\n0\n3\n10\n8\n2\n\n 
+   -->
+<Unit Name="Warrior">
+  <Cost>250</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>0</CloseAssaultFactor>
+  <Weapon Name="Lasguns" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Warrior brotherhood=750\n-\n-\n-\n-\n-\n-\n-\n-\n8\n22\n17\n2\n1 warrior; 1 Thunderer; 1 Berserker\n 
+   -->
+<Unit Name="Warrior brotherhood">
+  <Cost>750</Cost>
+  <Move>-</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+</Army>
+ <!--  
+   -->
+
+ <!-- [TYRANID] 
+   -->
+
+<Army Name="Tyranid">
+ <!-- Biovore Brood=200\n10\n4+\n+1\nSpore Mines\n100\nsp\n6BP\n-3\n2\n3\n2\n4\nNest\n 
+   -->
+<Unit Name="Biovore Brood">
+  <Cost>200</Cost>
+  <Move>10</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Spore Mines" Range="100" AttackDice="sp" ToHit="6BP" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Carnifex brood=150\n10\n4+\n+7\nBio Plasma\n50\n1\n4+\n-2\n2\n3\n2\n4\nEnemy test morale in CC, Regen, Rampage\n 
+   -->
+<Unit Name="Carnifex brood">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+7</CloseAssaultFactor>
+  <Weapon Name="Bio Plasma" Range="50" AttackDice="1" ToHit="4+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Dactylis brood=200\n15\n2+\n+4\nBile Pods\n75\n\n3BP\n-2\n2\n3\n2\n4\nNest\n 
+   -->
+<Unit Name="Dactylis brood">
+  <Cost>200</Cost>
+  <Move>15</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Bile Pods" Range="75" AttackDice="" ToHit="3BP" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Dactylis brood=\n\n\n\nSpore cryst\n15\n2\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Dactylis brood">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Spore cryst" Range="15" AttackDice="2" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Dominatrix=500\n10\n2+\n+10\nBio-canon\n75\n6\n5+\n-3\n5\n1\n-\n1\nCms, Psy sav 2+, Enem morl CC Regen\n 
+   -->
+<Unit Name="Dominatrix">
+  <Cost>500</Cost>
+  <Move>10</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+10</CloseAssaultFactor>
+  <Weapon Name="Bio-canon" Range="75" AttackDice="6" ToHit="5+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Dominatrix=\n\n\n\nSpore cryst\n15\n12\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Dominatrix">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Spore cryst" Range="15" AttackDice="12" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Exocrine brood=250\n15\n2+\n+3\nBio-cannon\n75\n2\n5+\n-3\n3\n3\n2\n4\n+1 dam roll, Nest\n 
+   -->
+<Unit Name="Exocrine brood">
+  <Cost>250</Cost>
+  <Move>15</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Bio-cannon" Range="75" AttackDice="2" ToHit="5+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Exocrine brood=\n\n\n\nSpore crysts\n15\n2\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Exocrine brood">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Spore crysts" Range="15" AttackDice="2" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Gargoyle brood=150\n20\n-\n+1\nFlamespurt\n25\n1\n5+\n0\n2\n5\n3\n4\nIgn. cover, m40 aft setup. Skim, Hunt\n 
+   -->
+<Unit Name="Gargoyle brood">
+  <Cost>150</Cost>
+  <Move>20</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Flamespurt" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Genestealers=150\n15\n-\n+6\nClaws\n-\n-\n-\n-\n2\n5\n3\n1\nIndependent\n 
+   -->
+<Unit Name="Genestealers">
+  <Cost>150</Cost>
+  <Move>15</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+6</CloseAssaultFactor>
+  <Weapon Name="Claws" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Harridan=150\n25\n2+A\n+5\nBio-cannon\n50\n4\n5+\n-3\n2\n1\n-\n1\nFlyer, independent, 3 wounds.\n 
+   -->
+<Unit Name="Harridan">
+  <Cost>150</Cost>
+  <Move>25</Move>
+  <SavingThrow>2+A</SavingThrow>
+  <CloseAssaultFactor>+5</CloseAssaultFactor>
+  <Weapon Name="Bio-cannon" Range="50" AttackDice="4" ToHit="5+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Harridan=\n\n\n\nSpore cloud\n\n12\nBP\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Harridan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Spore cloud" Range="" AttackDice="12" ToHit="BP" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Haruspex brood=200\n15\n2+\n+7\nAcid jets\n25\n2\n5+\n-2\n2\n3\n2\n4\nRampage\n 
+   -->
+<Unit Name="Haruspex brood">
+  <Cost>200</Cost>
+  <Move>15</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+7</CloseAssaultFactor>
+  <Weapon Name="Acid jets" Range="25" AttackDice="2" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Haruspex brood=\n\n\n\nFrag spines\n25\n\n2BP\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Haruspex brood">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Frag spines" Range="25" AttackDice="" ToHit="2BP" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Hierodule=450\n25\n\n+10\nspc\n\n\n\n\n5\n1\n-\n1\nregenerate, psi sav 4+, Titan\n 
+   -->
+<Unit Name="Hierodule">
+  <Cost>450</Cost>
+  <Move>25</Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor>+10</CloseAssaultFactor>
+  <Weapon Name="spc" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Hierodule brood=900\n\n\n\n\n\n\n\n\nsp\n3\n-\n-\n5 VP/Unit\n 
+   -->
+<Unit Name="Hierodule brood">
+  <Cost>900</Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Hierophant=650\n25\nspc\n+14\n3, head, left, right\n\n\n\n\n7\n1\n-\n1\nPsi sav 3+, Wounds 8, Regen\n 
+   -->
+<Unit Name="Hierophant">
+  <Cost>650</Cost>
+  <Move>25</Move>
+  <SavingThrow>spc</SavingThrow>
+  <CloseAssaultFactor>+14</CloseAssaultFactor>
+  <Weapon Name="3, head, left, right" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Hierophant brood=1300\n\n\n\n\n\n\n\n\nsp\n3\n-\n1\n7 VP/unit\n 
+   -->
+<Unit Name="Hierophant brood">
+  <Cost>1300</Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Hive tyrant=150\n10\n2+\n+10\nVenom cannon\n50\n2\n5+\n-2\n2\n1\n-\n1\nPsi sv 4+, 2Wnd, Regen, CU, mrl in CC\n 
+   -->
+<Unit Name="Hive tyrant">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+10</CloseAssaultFactor>
+  <Weapon Name="Venom cannon" Range="50" AttackDice="2" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Hormagaunt brood=100\n10\n-\n+2\nClaws\n-\n-\n-\n-\n1\n5\n3\n4\nTriple charge, Hunt\n 
+   -->
+<Unit Name="Hormagaunt brood">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+2</CloseAssaultFactor>
+  <Weapon Name="Claws" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Lictor brood=200\n15\nF6+\n+4\nFlesh hooks\n25\n2\n5+\n0\n2\n5\n3\n1\nM30, Can't be target over 25cm.\n 
+   -->
+<Unit Name="Lictor brood">
+  <Cost>200</Cost>
+  <Move>15</Move>
+  <SavingThrow>F6+</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Flesh hooks" Range="25" AttackDice="2" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Malefactor brood=150\n20\n2+\n+5\nFrag Spines\n25\n\n4BP\n0\n2\n3\n2\n4\nC2, Rampage\n 
+   -->
+<Unit Name="Malefactor brood">
+  <Cost>150</Cost>
+  <Move>20</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+5</CloseAssaultFactor>
+  <Weapon Name="Frag Spines" Range="25" AttackDice="" ToHit="4BP" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Malefactor brood=\n\n\n\nSpore cysts\n15\n3\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Malefactor brood">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Spore cysts" Range="15" AttackDice="3" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Mycetic spore=\nsp\n4+\n-\nNone\n\n\n\n\n\n\n\n\nC 1 stnd\n 
+   -->
+<Unit Name="Mycetic spore">
+  <Cost></Cost>
+  <Move>sp</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>-</CloseAssaultFactor>
+  <Weapon Name="None" Range="" AttackDice="" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Termagant brood=150\n10\n-\n+1\nFlesh bores\n25\n1\n5+\n0\n2\n10\n5\n4\nHunt\n 
+   -->
+<Unit Name="Termagant brood">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Flesh bores" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan Weapon=\n\n\n\nBile launcher\n100\n1\n3+\n-3\n\n\n\n\n(splatter, 4BP)\n 
+   -->
+<Unit Name="Titan Weapon">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Bile launcher" Range="100" AttackDice="1" ToHit="3+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan weapon=\n\n\n\nBio-cannon\n75\n3\n5+\n-3\n\n\n\n\n+1 dam vs. hit loc table\n 
+   -->
+<Unit Name="Titan weapon">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Bio-cannon" Range="75" AttackDice="3" ToHit="5+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan weapon=\n\n\n\nCluster spines\n50\n\n8BP\n-1\n\n\n\n\n\n 
+   -->
+<Unit Name="Titan weapon">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Cluster spines" Range="50" AttackDice="" ToHit="8BP" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan weapon=\n\n\n\nPyro-acid spray\nTMP\n3+\n\n-2\n\n\n\n\nspc\n 
+   -->
+<Unit Name="Titan weapon">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Pyro-acid spray" Range="TMP" AttackDice="3+" ToHit="" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan weapon=\n\n\n\nRipper tentacles\n-\n-\n\n\n\n\n\n\nSPC\n 
+   -->
+<Unit Name="Titan weapon">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Ripper tentacles" Range="-" AttackDice="-" ToHit="" TargetSaveMod=""></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan weapon=\n\n\n\nSpore pods\n25\n12\nBP\n-1\n\n\n\n\nMay split BP\n 
+   -->
+<Unit Name="Titan weapon">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Spore pods" Range="25" AttackDice="12" ToHit="BP" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan weapon=\n\n\n\nStinger salvo\n25\n6\n4+\n-1\n\n\n\n\n\n 
+   -->
+<Unit Name="Titan weapon">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Stinger salvo" Range="25" AttackDice="6" ToHit="4+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Titan weapons=\n\n\n\nRazor claw frag spin\n25\n\n8BP\n0\n\n\n\n\nGrab attack\n 
+   -->
+<Unit Name="Titan weapons">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Razor claw frag spin" Range="25" AttackDice="" ToHit="8BP" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Trygon=100\n20\n1+\n+8\nBio-Shock\nspc\ntmp\n3+\n-D6\n1\n1\n-\n4\nR D6x10cm\n 
+   -->
+<Unit Name="Trygon">
+  <Cost>100</Cost>
+  <Move>20</Move>
+  <SavingThrow>1+</SavingThrow>
+  <CloseAssaultFactor>+8</CloseAssaultFactor>
+  <Weapon Name="Bio-Shock" Range="spc" AttackDice="tmp" ToHit="3+" TargetSaveMod="-D6"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Tyranid Warrior brood=200\n10\nF6+\n+5\nDeathspitters\n50\n2\n5+\n-1\n2\n5\n3\n1\nIndependant\n 
+   -->
+<Unit Name="Tyranid Warrior brood">
+  <Cost>200</Cost>
+  <Move>10</Move>
+  <SavingThrow>F6+</SavingThrow>
+  <CloseAssaultFactor>+5</CloseAssaultFactor>
+  <Weapon Name="Deathspitters" Range="50" AttackDice="2" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Zoanthrope brood=100\n10\nF6+\n+1\nWarp blast\n50\n1\n5+\n-6\n1\n3\n2\n4\nPsi 4+ Psi power, Nest\n 
+   -->
+<Unit Name="Zoanthrope brood">
+  <Cost>100</Cost>
+  <Move>10</Move>
+  <SavingThrow>F6+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Warp blast" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="-6"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- [HIVE] 
+   -->
+
+ <!-- Biovore brood=200\n10\n4+\n+1\nSpore mines\n100\n6BP\nspc\n-3\n 2\n3\n 2\n4\nVehicle, Instinct: Nest, Special rule\n 
+   -->
+<Unit Name="Biovore brood">
+  <Cost>200</Cost>
+  <Move>10</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Spore mines" Range="100" AttackDice="6BP" ToHit="spc" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Carnifex brood=150\n10\n4+\n+7\nBio Plasma\n50\n1\n4+\n-2\n2\n3\n2\n\nKnight/Infantry, Enemy test morl in CC\n 
+   -->
+<Unit Name="Carnifex brood">
+  <Cost>150</Cost>
+  <Move>10</Move>
+  <SavingThrow>4+</SavingThrow>
+  <CloseAssaultFactor>+7</CloseAssaultFactor>
+  <Weapon Name="Bio Plasma" Range="50" AttackDice="1" ToHit="4+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Dactylis brood=200\n15\n2+\n+4\nBile pods\n75\n3BP\n\n-2\n2\n3\n2\n\nVehicle, Instinct: Nest\n 
+   -->
+<Unit Name="Dactylis brood">
+  <Cost>200</Cost>
+  <Move>15</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+4</CloseAssaultFactor>
+  <Weapon Name="Bile pods" Range="75" AttackDice="3BP" ToHit="" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Dactylis brood=\n\n\n\nSpore crysts\n15\n2\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Dactylis brood">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Spore crysts" Range="15" AttackDice="2" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Dominatrix=500\n10\n2+\n+10\nBio-cannon\n75\n6\n5+\n-3\n5\n1\n\n1\nSup Hev, CO, Psyc 2+, Wounds: 4, regenr\n 
+   -->
+<Unit Name="Dominatrix">
+  <Cost>500</Cost>
+  <Move>10</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+10</CloseAssaultFactor>
+  <Weapon Name="Bio-cannon" Range="75" AttackDice="6" ToHit="5+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Dominatrix=\n\n\n\nSpore cysts\n15\n12\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Dominatrix">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Spore cysts" Range="15" AttackDice="12" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Excorine Brood=250\n15\n2+\n+3\nBio-cannon\n75\n2\n5+\n-3\n3\n3\n2\n4\nVehicle, Instinct: Nest, +1 on damage\n 
+   -->
+<Unit Name="Excorine Brood">
+  <Cost>250</Cost>
+  <Move>15</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+3</CloseAssaultFactor>
+  <Weapon Name="Bio-cannon" Range="75" AttackDice="2" ToHit="5+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Exorine Brood=\n\n\n\nSpore cysts\n15\n2\n6+\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Exorine Brood">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Spore cysts" Range="15" AttackDice="2" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Gargoyle Brood=150\n20\n-\n+1\nFlamespurt\n25\n1\n5+\n0\n2\n5\n3\n4\nInfantry, Skimmer, ignore cover, HUNT\n 
+   -->
+<Unit Name="Gargoyle Brood">
+  <Cost>150</Cost>
+  <Move>20</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+1</CloseAssaultFactor>
+  <Weapon Name="Flamespurt" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Genestealer Brood=150\n15\n-\n+6\nClaws\n-\n-\n-\n-\n2\n5\n3\n1\nInfantry, Independent\n 
+   -->
+<Unit Name="Genestealer Brood">
+  <Cost>150</Cost>
+  <Move>15</Move>
+  <SavingThrow>-</SavingThrow>
+  <CloseAssaultFactor>+6</CloseAssaultFactor>
+  <Weapon Name="Claws" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Harridan=150\n25\n2+A\n+5\nBio-cannon\n50\n4\n5+\n-3\n2\n1\n1\n1\nSup hev, veh, fly, indep, W3 C5 gargoyle\n 
+   -->
+<Unit Name="Harridan">
+  <Cost>150</Cost>
+  <Move>25</Move>
+  <SavingThrow>2+A</SavingThrow>
+  <CloseAssaultFactor>+5</CloseAssaultFactor>
+  <Weapon Name="Bio-cannon" Range="50" AttackDice="4" ToHit="5+" TargetSaveMod="-3"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Harridan=\n\n\n\nSpore Cloud\nspc\n12\nBP\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Harridan">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Spore Cloud" Range="spc" AttackDice="12" ToHit="BP" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Haruspex Brood=200\n15\n2+\n+7\nAcid jets\n25\n2\n5+\n-2\n2\n3\n2\n4\nVehicle RAMPAGE\n 
+   -->
+<Unit Name="Haruspex Brood">
+  <Cost>200</Cost>
+  <Move>15</Move>
+  <SavingThrow>2+</SavingThrow>
+  <CloseAssaultFactor>+7</CloseAssaultFactor>
+  <Weapon Name="Acid jets" Range="25" AttackDice="2" ToHit="5+" TargetSaveMod="-2"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+
+ <!-- Haruspex Brood=\n\n\n\nFrag spines\n25\n2BP\n\n0\n\n\n\n\n\n 
+   -->
+<Unit Name="Haruspex Brood">
+  <Cost></Cost>
+  <Move></Move>
+  <SavingThrow></SavingThrow>
+  <CloseAssaultFactor></CloseAssaultFactor>
+  <Weapon Name="Frag spines" Range="25" AttackDice="2BP" ToHit="" TargetSaveMod="0"></Weapon>
+  <Type></Type>
+  <Notes></Notes>
+</Unit>
+</Army>
+
+</Armies>
