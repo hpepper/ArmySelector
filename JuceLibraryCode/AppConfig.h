@@ -11,8 +11,8 @@
 
 */
 
-#ifndef __JUCE_APPCONFIG_YMM8ZX__
-#define __JUCE_APPCONFIG_YMM8ZX__
+#ifndef __JUCE_APPCONFIG_DJFSIL__
+#define __JUCE_APPCONFIG_DJFSIL__
 
 //==============================================================================
 // [BEGIN_USER_CODE_SECTION]
@@ -193,4 +193,4 @@
 #endif
 
 
-#endif  // __JUCE_APPCONFIG_YMM8ZX__
+#endif  // __JUCE_APPCONFIG_DJFSIL__

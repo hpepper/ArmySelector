@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="Ymm8Zx" name="ArmySelector" projectType="guiapp" version="0.1.0"
+<JUCERPROJECT id="DjFSiL" name="ArmySelector" projectType="guiapp" version="0.1.0"
               bundleIdentifier="com.yourcompany.ArmySelector" includeBinaryInAppConfig="1"
               jucerVersion="3.1.0">
-  <MAINGROUP id="LIXszM" name="ArmySelector">
-    <GROUP id="{CB922BD6-6F28-7F0D-77B9-5E87F9B30B01}" name="Source">
-      <FILE id="WrnGQN" name="MainComponent.cpp" compile="1" resource="0"
+  <MAINGROUP id="IbWuRZ" name="ArmySelector">
+    <GROUP id="{12358D9C-3501-422C-B202-D864578FFCEB}" name="Source">
+      <FILE id="BlSJBx" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
-      <FILE id="mrjtZ8" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
-      <FILE id="b7UYJI" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="iSzUlJ" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="nZvVO1" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
     </GROUP>
   </MAINGROUP>
   <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/Linux">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="ArmySelector"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="2"
+                       targetName="ArmySelector"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../source/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../source/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../source/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../source/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../source/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../source/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../source/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../source/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../source/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../source/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../source/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../source/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../source/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
     <XCODE_MAC targetFolder="Builds/MacOSX">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
@@ -20,19 +43,19 @@
                        isDebug="0" optimisation="2" targetName="ArmySelector"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="juce_core" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_events" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_graphics" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_data_structures" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_gui_basics" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_cryptography" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_video" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_opengl" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_basics" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_devices" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_formats" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_processors" path="../../../tmp/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../juce"/>
+        <MODULEPATH id="juce_opengl" path="../../juce"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce"/>
+        <MODULEPATH id="juce_graphics" path="../../juce"/>
+        <MODULEPATH id="juce_events" path="../../juce"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce"/>
+        <MODULEPATH id="juce_cryptography" path="../../juce"/>
+        <MODULEPATH id="juce_core" path="../../juce"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce"/>
       </MODULEPATHS>
     </XCODE_MAC>
     <VS2013 targetFolder="Builds/VisualStudio2013">
@@ -43,19 +66,19 @@
                        isDebug="0" optimisation="2" targetName="ArmySelector"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="juce_video" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_opengl" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_gui_basics" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_graphics" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_events" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_data_structures" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_cryptography" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_core" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_processors" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_formats" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_devices" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_basics" path="../../../tmp/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../juce"/>
+        <MODULEPATH id="juce_opengl" path="../../juce"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce"/>
+        <MODULEPATH id="juce_graphics" path="../../juce"/>
+        <MODULEPATH id="juce_events" path="../../juce"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce"/>
+        <MODULEPATH id="juce_cryptography" path="../../juce"/>
+        <MODULEPATH id="juce_core" path="../../juce"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce"/>
       </MODULEPATHS>
     </VS2013>
     <ANDROID targetFolder="Builds/Android" androidActivityClass="com.yourcompany.armyselector.ArmySelector"
@@ -70,44 +93,21 @@
                        optimisation="2" targetName="ArmySelector"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="juce_video" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_opengl" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_gui_basics" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_graphics" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_events" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_data_structures" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_cryptography" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_core" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_processors" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_formats" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_devices" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_basics" path="../../../tmp/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../juce"/>
+        <MODULEPATH id="juce_opengl" path="../../juce"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce"/>
+        <MODULEPATH id="juce_graphics" path="../../juce"/>
+        <MODULEPATH id="juce_events" path="../../juce"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce"/>
+        <MODULEPATH id="juce_cryptography" path="../../juce"/>
+        <MODULEPATH id="juce_core" path="../../juce"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce"/>
       </MODULEPATHS>
     </ANDROID>
-    <LINUX_MAKE targetFolder="Builds/Linux">
-      <CONFIGURATIONS>
-        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
-                       targetName="ArmySelector"/>
-        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="2"
-                       targetName="ArmySelector"/>
-      </CONFIGURATIONS>
-      <MODULEPATHS>
-        <MODULEPATH id="juce_video" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_opengl" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_gui_basics" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_graphics" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_events" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_data_structures" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_cryptography" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_core" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_processors" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_formats" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_devices" path="../../../tmp/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_basics" path="../../../tmp/JUCE/modules"/>
-      </MODULEPATHS>
-    </LINUX_MAKE>
   </EXPORTFORMATS>
   <MODULES>
     <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>

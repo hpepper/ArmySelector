@@ -10,8 +10,8 @@
 
 */
 
-#ifndef __APPHEADERFILE_YMM8ZX__
-#define __APPHEADERFILE_YMM8ZX__
+#ifndef __APPHEADERFILE_DJFSIL__
+#define __APPHEADERFILE_DJFSIL__
 
 #include "AppConfig.h"
 #include "modules/juce_audio_basics/juce_audio_basics.h"
@@ -41,4 +41,4 @@ namespace ProjectInfo
     const int          versionNumber  = 0x100;
 }
 
-#endif   // __APPHEADERFILE_YMM8ZX__
+#endif   // __APPHEADERFILE_DJFSIL__

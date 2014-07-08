@@ -29,9 +29,6 @@ public:
 
 private:
     //==============================================================================
-    ChoicePropertyComponent *m_pSelectArmyDropDown;
-    float m_fCurrentFontHeight;
-    TextButton *m_pButton1;
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainContentComponent)
 };
 

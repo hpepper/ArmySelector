@@ -42,7 +42,7 @@ struct StartEndString
 };
 
 static int compareStrings (const String& s1, const String& s2) noexcept     { return s1.compare (s2); }
-static int compareStrings (CharPointer_UTF8 s1, const String& s2) noexcept  { return s1.compare (s2.toUTF8()); }
+static int compareStrings (CharPointer_UTF8 s1, const String& s2) noexcept  { return s1.compare (s2.getCharPointer()); }
 
 static int compareStrings (const StartEndString& string1, const String& string2) noexcept
 {
@@ -119,6 +119,16 @@ String StringPool::getPooledString (String::CharPointerType start, String::CharP
     const ScopedLock sl (lock);
     garbageCollectIfNeeded();
     return addPooledString (strings, StartEndString (start, end));
+}
+
+String StringPool::getPooledString (StringRef newString)
+{
+    if (newString.isEmpty())
+        return String();
+
+    const ScopedLock sl (lock);
+    garbageCollectIfNeeded();
+    return addPooledString (strings, newString.text);
 }
 
 String StringPool::getPooledString (const String& newString)
