@@ -29,6 +29,7 @@ public:
 
 private:
     //==============================================================================
+    TextButton *m_pButton1;
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainContentComponent)
 };
 
