@@ -19,8 +19,11 @@ class Model {
     Model(std::string);
     ~Model();
     
+    std::vector<String> GetArmyNameList();
+    
     private:
     XmlDocument *m_pXmlDocument;
+    XmlElement *m_pXmlRootElement;
 };
 
 

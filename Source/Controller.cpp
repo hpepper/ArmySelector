@@ -12,7 +12,20 @@
 
 Controller::Controller()
 {
-    m_pModel = new Model("../../../../Data/epic.xml");
+//    m_pModel = new Model("../../../../Data/epic.xml");
+    m_pModel = new Model("../../Data/epic.xml");
+   
+    std::vector<String> ArmyNameList = m_pModel->GetArmyNameList();
+    
+    int nIndex = 0;
+    std::vector<String>::const_iterator sEntry;
+    for(sEntry=ArmyNameList.begin(); sEntry!=ArmyNameList.end(); ++sEntry){
+        std::cout << "DDD " << *sEntry << std::endl;
+       nIndex++;
+    }
+
+    
+    
 }
 
 Controller::~Controller()
