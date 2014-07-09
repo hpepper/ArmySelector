@@ -32,6 +32,7 @@ public:
 private:
     //==============================================================================
     TextButton *m_pButton1;
+    ChoicePropertyComponent *m_pSelectArmyDropDown;
     
     Controller *m_pController;
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainContentComponent)

@@ -12,15 +12,27 @@
 
 #include "Model.h"
 
-class Controller {
+class Controller : public Component, Value::Listener {
     public:
     Controller();
     ~Controller();
     
+    void valueChanged(Value &value);
+
+    ChoicePropertyComponent * PopulateArmyDropDownComponent();
     
     private:
     
     Model *m_pModel;
+    Value *m_pValue;
+    
+    var m_nArmySelectionIndex;
+    
+    Value *m_pArmySelected;
+    
+    StringArray m_cArmyChoices;
+    Array<var> m_arArmyChoiceVars;
+
 };
 
 
