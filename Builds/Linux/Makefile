@@ -51,6 +51,8 @@ ifeq ($(CONFIG),Release)
 endif
 
 OBJECTS := \
+  $(OBJDIR)/Model_26540a0a.o \
+  $(OBJDIR)/Controller_2961cb25.o \
   $(OBJDIR)/MainComponent_a6ffb4a5.o \
   $(OBJDIR)/Main_90ebc5c2.o \
   $(OBJDIR)/juce_audio_basics_2442e4ea.o \
@@ -83,6 +85,16 @@ clean:
 strip:
 	@echo Stripping ArmySelector
 	-@strip --strip-unneeded $(OUTDIR)/$(TARGET)
+
+$(OBJDIR)/Model_26540a0a.o: ../../Source/Model.cpp
+	-@mkdir -p $(OBJDIR)
+	@echo "Compiling Model.cpp"
+	@$(CXX) $(CXXFLAGS) -o "$@" -c "$<"
+
+$(OBJDIR)/Controller_2961cb25.o: ../../Source/Controller.cpp
+	-@mkdir -p $(OBJDIR)
+	@echo "Compiling Controller.cpp"
+	@$(CXX) $(CXXFLAGS) -o "$@" -c "$<"
 
 $(OBJDIR)/MainComponent_a6ffb4a5.o: ../../Source/MainComponent.cpp
 	-@mkdir -p $(OBJDIR)

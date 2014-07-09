@@ -295,6 +295,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\Model.cpp">
+      <Filter>ArmySelector\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Controller.cpp">
+      <Filter>ArmySelector\Source</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\MainComponent.cpp">
       <Filter>ArmySelector\Source</Filter>
     </ClCompile>
@@ -1497,6 +1503,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\Model.h">
+      <Filter>ArmySelector\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Controller.h">
+      <Filter>ArmySelector\Source</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\MainComponent.h">
       <Filter>ArmySelector\Source</Filter>
     </ClInclude>

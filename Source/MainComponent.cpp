@@ -12,6 +12,7 @@
 //==============================================================================
 MainContentComponent::MainContentComponent()
 {
+    m_pController = new Controller();
     m_pButton1 = new TextButton("Test");
     addAndMakeVisible(m_pButton1);
     
@@ -21,6 +22,7 @@ MainContentComponent::MainContentComponent()
 MainContentComponent::~MainContentComponent()
 {
     delete m_pButton1;
+    delete m_pController;
 }
 
 void MainContentComponent::paint (Graphics& g)

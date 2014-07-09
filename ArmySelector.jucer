@@ -5,6 +5,10 @@
               jucerVersion="3.1.0">
   <MAINGROUP id="IbWuRZ" name="ArmySelector">
     <GROUP id="{12358D9C-3501-422C-B202-D864578FFCEB}" name="Source">
+      <FILE id="wPLbKG" name="Model.cpp" compile="1" resource="0" file="Source/Model.cpp"/>
+      <FILE id="QJ7PwE" name="Model.h" compile="0" resource="0" file="Source/Model.h"/>
+      <FILE id="kbXIXE" name="Controller.cpp" compile="1" resource="0" file="Source/Controller.cpp"/>
+      <FILE id="CykkAP" name="Controller.h" compile="0" resource="0" file="Source/Controller.h"/>
       <FILE id="BlSJBx" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
       <FILE id="iSzUlJ" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
