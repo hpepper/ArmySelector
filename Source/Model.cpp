@@ -36,13 +36,20 @@ Model::~Model()
 std::vector<String> Model::GetArmyNameList()
 {
     std::vector<String> cArmyNameList;
-    
+  
+    /*
     XmlElement* xmlFirstArmyElement = m_pXmlRootElement->getChildByName("Army");
     cArmyNameList.push_back(xmlFirstArmyElement->getStringAttribute("Name"));
         
     XmlElement* xmlArmyElement;
     while ( ( xmlArmyElement = m_pXmlRootElement->getNextElementWithTagName("Army") ) != NULL ) {
         cArmyNameList.push_back(xmlArmyElement->getStringAttribute("Name"));
+    }
+    */
+    forEachXmlChildElementWithTagName (*m_pXmlRootElement, xmlArmyElement, "Army")
+    {
+      //  std::cout << xmlArmyElement->getStringAttribute("Name") << std::endl;
+      cArmyNameList.push_back(xmlArmyElement->getStringAttribute("Name"));
     }
 
     return(cArmyNameList);

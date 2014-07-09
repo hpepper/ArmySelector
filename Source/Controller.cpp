@@ -14,6 +14,7 @@ Controller::Controller()
 {
 //    m_pModel = new Model("../../../../Data/epic.xml");
     m_pModel = new Model("../../Data/epic.xml");
+//    m_pModel = new Model("../../Data/test.xml");
    
     std::vector<String> ArmyNameList = m_pModel->GetArmyNameList();
     

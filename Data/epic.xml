@@ -98,7 +98,6 @@
   <Type></Type>
   <Notes></Notes>
 </Unit>
-</Army>
 
 <!-- Army Name="CHAOS" --> 
    -->
@@ -1901,7 +1900,7 @@
   <Notes></Notes>
 </Unit>
 
- <!-- Titan=\n\n\n\nCombat Head\n\n\n\n\n\n\n\n\nCC +3 p† CAF\n 
+ <!-- Titan=\n\n\n\nCombat Head\n\n\n\n\n\n\n\n\nCC +3 pï¿½ CAF\n 
    -->
 <Unit Name="Titan">
   <Cost></Cost>
@@ -1913,7 +1912,7 @@
   <Notes></Notes>
 </Unit>
 
- <!-- Titan=\n\n\n\nCorvus assault pod\n\n\n\n\n\n\n\n\nB‘rer 4 terminator stands\n 
+ <!-- Titan=\n\n\n\nCorvus assault pod\n\n\n\n\n\n\n\n\nBï¿½rer 4 terminator stands\n 
    -->
 <Unit Name="Titan">
   <Cost></Cost>
@@ -1937,7 +1936,7 @@
   <Notes></Notes>
 </Unit>
 
- <!-- Titan=\n\n\n\nFire control centre\n\n\n\n\n\n\n\n\n+1 p† hit, save 3+\n 
+ <!-- Titan=\n\n\n\nFire control centre\n\n\n\n\n\n\n\n\n+1 pï¿½ hit, save 3+\n 
    -->
 <Unit Name="Titan">
   <Cost></Cost>
@@ -1949,7 +1948,7 @@
   <Notes></Notes>
 </Unit>
 
- <!-- Titan=\n\n\n\nHapoon missile\nunl\n-\naut\n-2\n\n\n\n\novertager m†l titan, one shoot\n 
+ <!-- Titan=\n\n\n\nHapoon missile\nunl\n-\naut\n-2\n\n\n\n\novertager mï¿½l titan, one shoot\n 
    -->
 <Unit Name="Titan">
   <Cost></Cost>
@@ -1997,7 +1996,7 @@
   <Notes></Notes>
 </Unit>
 
- <!-- Titan=\n\n\n\nPower ram\n0\n-\n-\n-\n\n\n\n\ncc oponent v‘lter hvis vinder 6+\n 
+ <!-- Titan=\n\n\n\nPower ram\n0\n-\n-\n-\n\n\n\n\ncc oponent vï¿½lter hvis vinder 6+\n 
    -->
 <Unit Name="Titan">
   <Cost></Cost>
