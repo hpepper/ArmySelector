@@ -14,4 +14,10 @@
 Model::Model(std::string szFileName)
 {
     std::cout << szFileName << std::endl;
+    m_pXmlDocument = new XmlDocument(File(szFileName));
+}
+
+Model::~Model()
+{
+    delete m_pXmlDocument;
 }

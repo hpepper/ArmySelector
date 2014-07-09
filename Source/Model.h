@@ -12,11 +12,15 @@
 
 #include <string>
 
+#include "../JuceLibraryCode/JuceHeader.h"
+
 class Model {
     public:
     Model(std::string);
+    ~Model();
     
     private:
+    XmlDocument *m_pXmlDocument;
 };
 
 
