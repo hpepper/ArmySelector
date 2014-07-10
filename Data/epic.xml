@@ -1,5 +1,5 @@
 
-<Armies Version="0.1.0">
+<Armies Version="0.2.0">
 <Army Name="Chaos">
 <!-- Army Name="CHAOS GREATER DEMON" -->
 
@@ -649,83 +649,118 @@
  <!-- [ELDAR HOST] 
    -->
 <Army Name="Eldar">
- <!-- Defender Warhost=450\n-\n-\n-\n-\n-\n-\n-\n-\n5\n18\n9\n3\n3x6 Guardians\n 
-   -->
-<Unit Name="Defender Warhost">
-  <Cost>450</Cost>
-  <Move>-</Move>
-  <SavingThrow>-</SavingThrow>
-  <CloseAssaultFactor>-</CloseAssaultFactor>
-  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
-  <Type></Type>
-  <Notes></Notes>
-</Unit>
+<Card Name="Avatar" Type="Gift">
+  <Cost>0</Cost>
+  <BreakPoint>1</BreakPoint>
+  <MoraleValue>-</MoraleValue>
+  <VictoryPoints>2</VictoryPoints>
+  <Group Name="" NumberOfStands="1" UnitName="Avatar"></Group>
+</Card>
 
- <!-- Falcon Host=450\n-\n-\n-\n-\n-\n-\n-\n-\n5\n9\n5\n3\n3 x 3 Falcon's\n 
-   -->
-<Unit Name="Falcon Host">
-  <Cost>450</Cost>
-  <Move>-</Move>
-  <SavingThrow>-</SavingThrow>
-  <CloseAssaultFactor>-</CloseAssaultFactor>
-  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
-  <Type></Type>
-  <Notes></Notes>
-</Unit>
+<Card Name="" Type="Free">
+  <Cost></Cost>
+  <BreakPoint></BreakPoint>
+  <MoraleValue>-</MoraleValue>
+  <VictoryPoints></VictoryPoints>
+  <Group Name="" NumberOfStands="" UnitName=""></Group>
+  <Group Name="" NumberOfStands="" UnitName=""></Group>
+</Card>
 
- <!-- Spirit Host=500\n-\n-\n-\n-\n-\n-\n-\n-\n5\n13\nW\n-\n1 Warlock;4 Wraithguard;2x4 Dreadnought\n 
-   -->
-<Unit Name="Spirit Host">
-  <Cost>500</Cost>
-  <Move>-</Move>
-  <SavingThrow>-</SavingThrow>
-  <CloseAssaultFactor>-</CloseAssaultFactor>
-  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
-  <Type></Type>
-  <Notes></Notes>
-</Unit>
+<!--  I think theses are deployed on their own, with no support or special cards -->
+<Card Name="Phantom Titan Squadron" Type="Squadron">
+  <Cost>12</Cost>
+  <BreakPoint>-</BreakPoint>
+  <MoraleValue>-</MoraleValue>
+  <VictoryPoints>6</VictoryPoints>
+  <Group Name="Phantom Titan" NumberOfStands="1" UnitName="Phantom Titan"></Group>
+  <Group Name="Phantom Titan" NumberOfStands="1" UnitName="Phantom Titan"></Group>
+  <Group Name="Phantom Titan" NumberOfStands="1" UnitName="Phantom Titan"></Group>
+</Card>
 
- <!-- Tempest Host=900\n-\n-\n-\n-\n-\n-\n-\n-\n9\n6\n3\n3\n2 x 3 Tempest\n 
-   -->
-<Unit Name="Tempest Host">
-  <Cost>900</Cost>
-  <Move>-</Move>
-  <SavingThrow>-</SavingThrow>
-  <CloseAssaultFactor>-</CloseAssaultFactor>
-  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
-  <Type></Type>
-  <Notes></Notes>
-</Unit>
-
- <!-- Warhost=850\n-\n-\n-\n-\n-\n-\n-\n-\n9\n27\n14\n3\n3x3Falcon;+3x6Guardians\n 
-   -->
-<Unit Name="Warhost">
-  <Cost>850</Cost>
-  <Move>-</Move>
-  <SavingThrow>-</SavingThrow>
-  <CloseAssaultFactor>-</CloseAssaultFactor>
-  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
-  <Type></Type>
-  <Notes></Notes>
-</Unit>
-
- <!-- Wind Rider Host=650\n-\n-\n-\n-\n-\n-\n-\n-\n7\n25\n13\n3\n2 x 5 Vyper jet;3 x5 Jet's\n 
-   -->
-<Unit Name="Wind Rider Host">
+<Card Name="Wind rider host" Type="Host">
   <Cost>650</Cost>
-  <Move>-</Move>
-  <SavingThrow>-</SavingThrow>
-  <CloseAssaultFactor>-</CloseAssaultFactor>
-  <Weapon Name="-" Range="-" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
-  <Type></Type>
-  <Notes></Notes>
-</Unit>
+  <BreakPoint>13</BreakPoint>
+  <MoraleValue>3</MoraleValue>
+  <VictoryPoints>7</VictoryPoints>
+  <Group Name="Vyper Unit 1" NumberOfStands="5" UnitName="Vyper Jet-Bike"></Group>
+  <Group Name="Vyper Unit 2" NumberOfStands="5" UnitName="Vyper Jet-Bike"></Group>
+  <Group Name="Jet-Bike Unit 1" NumberOfStands="5" UnitName="Jet-Bike, Eldar"></Group>
+  <Group Name="Jet-Bike Unit 2" NumberOfStands="5" UnitName="Jet-Bike, Eldar"></Group>
+  <Group Name="Jet-Bike Unit 3" NumberOfStands="5" UnitName="Jet-Bike, Eldar"></Group>
+</Card>
 
- <!--  
-   -->
+<Card Name="Eldar warhost" Type="Host">
+  <Cost>850</Cost>
+  <BreakPoint>14</BreakPoint>
+  <MoraleValue>3</MoraleValue>
+  <VictoryPoints>9</VictoryPoints>
+  <Group Name="Detachment 1-A" NumberOfStands="3" UnitName="Falcon grav-tank"></Group>
+  <Group Name="Detachment 1-B" NumberOfStands="6" UnitName="Eldar Guardians"></Group>
+  <Group Name="Detachment 2-A" NumberOfStands="3" UnitName="Falcon grav-tank"></Group>
+  <Group Name="Detachment 2-B" NumberOfStands="6" UnitName="Eldar Guardians"></Group>
+  <Group Name="Detachment 3-A" NumberOfStands="3" UnitName="Falcon grav-tank"></Group>
+  <Group Name="Detachment 4-B" NumberOfStands="6" UnitName="Eldar Guardians"></Group>
+</Card>
 
- <!-- [ELDAR TITAN WEAPON] 
-   -->
+<Card Name="" Type="Host">
+  <Cost></Cost>
+  <BreakPoint></BreakPoint>
+  <MoraleValue>-</MoraleValue>
+  <VictoryPoints></VictoryPoints>
+  <Group Name="" NumberOfStands="" UnitName=""></Group>
+  <Group Name="" NumberOfStands="" UnitName=""></Group>
+</Card>
+
+<Card Name="Tempest squadron" Type="Support">
+  <Cost>500</Cost>
+  <BreakPoint>2</BreakPoint>
+  <MoraleValue>3</MoraleValue>
+  <VictoryPoints>5</VictoryPoints>
+  <Group Name="Squadron" NumberOfStands="3" UnitName="Tempest"></Group>
+</Card>
+
+<Card Name="Deathstalker prism cannon" Type="Support">
+  <Cost>50</Cost>
+  <BreakPoint>-</BreakPoint>
+  <MoraleValue>3</MoraleValue>
+  <VictoryPoints>1</VictoryPoints>
+  <Group Name="Unit" NumberOfStands="1" UnitName="Deathstalker"></Group>
+</Card>
+
+<Card Name="Doomweaver squadron" Type="Support">
+  <Cost>150</Cost>
+  <BreakPoint>1</BreakPoint>
+  <MoraleValue>3</MoraleValue>
+  <VictoryPoints>2</VictoryPoints>
+  <Group Name="Squadron" NumberOfStands="2" UnitName="Doomweaver"></Group>
+</Card>
+
+<Card Name="Wave serpent squadrant" Type="Support">
+  <Cost>150</Cost>
+  <BreakPoint>1</BreakPoint>
+  <MoraleValue>3</MoraleValue>
+  <VictoryPoints>2</VictoryPoints>
+  <Group Name="Squadron" NumberOfStands="2" UnitName="Wave serpent"></Group>
+</Card>
+
+<Card Name="Vibro-cannon battery" Type="Support">
+  <Cost>100</Cost>
+  <BreakPoint>2</BreakPoint>
+  <MoraleValue>3</MoraleValue>
+  <VictoryPoints>1</VictoryPoints>
+  <Group Name="Battery" NumberOfStands="3" UnitName="Vibro-cannon"></Group>
+</Card>
+
+<Card Name="Warlock" Type="Special">
+  <Cost>100</Cost>
+  <BreakPoint>-</BreakPoint>
+  <MoraleValue>-</MoraleValue>
+  <VictoryPoints>1</VictoryPoints>
+  <Group Name="Warlock" NumberOfStands="1" UnitName="Warlock"></Group>
+  <Group Name="Falcon" NumberOfStands="1" UnitName="Falcon grav-tank"></Group>
+</Card>
+
+ <!-- [ELDAR TITAN WEAPON]   -->
 
  <!-- Titan=\n\n\n\nPower Fist\n50\n4\n4+\n-1\n\n\n\n\nUse in CC\n 
    -->
@@ -827,6 +862,8 @@
   <Weapon Name="Anch. Artefact" Range="75" AttackDice="2" ToHit="3+" TargetSaveMod="-1"></Weapon>
   <Type></Type>
   <Notes></Notes>
+  <!--  Name of the owner, and the number of stands owned. -->
+  <Owned Owner="" NumberOfStands=""></Owned>
 </Unit>
 
  <!-- Harlequin=150\n15\n-\n+6\nShuriken pistol\n25\n1\n5+\n0\n2\n4\n2\n2\nspc\n 
@@ -853,17 +890,21 @@
   <Notes></Notes>
 </Unit>
 
- <!-- Warlock=100\n10\n-\n+2\nShur pistol\n25\n1\n5+\n-\n\n1\n-\n-\nPsychic power\n 
-   -->
 <Unit Name="Warlock">
   <Cost>100</Cost>
   <Move>10</Move>
   <SavingThrow>-</SavingThrow>
   <CloseAssaultFactor>+2</CloseAssaultFactor>
-  <Weapon Name="Shur pistol" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="-"></Weapon>
-  <Type></Type>
+  <Weapon Name="Shuriken pistol" Range="25" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
+  <Weapon Name="Mind blast" Range="25" AttackDice="1" ToHit="4+" TargetSaveMod="-"></Weapon>
+  <!--  psy lock, enemy can break free on 4+ in end phase. -->
+  <Weapon Name="Psychic lock" Range="75" AttackDice="1" ToHit="4+" TargetSaveMod="-"></Weapon>
+  <!--  eldritch storm is a barage template. -->
+  <Weapon Name="Eldritch storm" Range="50" AttackDice="-" ToHit="-" TargetSaveMod="-"></Weapon>
+  <Type>Infantry</Type>
   <Class></Class>
-  <Notes></Notes>
+  <Notes>May use one Psy power per round.</Notes>
+  <Reference>Renegades,p10</Reference>
 </Unit>
 
  <!--  
@@ -896,16 +937,15 @@
   <Notes></Notes>
 </Unit>
 
- <!-- Deathstalker=50\n25\n3+\n+1\nPrism cannon\n75\n1\n3+\n-2\n1\n1\n-\n-\nSpc, Skimmer\n 
-   -->
 <Unit Name="Deathstalker">
   <Cost>50</Cost>
   <Move>25</Move>
   <SavingThrow>3+</SavingThrow>
   <CloseAssaultFactor>+1</CloseAssaultFactor>
   <Weapon Name="Prism cannon" Range="75" AttackDice="1" ToHit="3+" TargetSaveMod="-2"></Weapon>
-  <Type></Type>
-  <Notes></Notes>
+  <Type>Skimmer</Type>
+  <Notes>Can combine shots.</Notes>
+  <Reference>Renegades,p15</Reference>
 </Unit>
 
  <!-- Dire Avenger=100\n10\n-\n+2\nShurikens\n50\n1\n5+\n0\n1\n4\n2\n\n\n 
@@ -920,8 +960,6 @@
   <Notes></Notes>
 </Unit>
 
- <!-- Doomweaver=150\n25\n3+\n+1\nWire thread\nspc\nspc\nspc\nspc\n2\n2\n1\n\n\n 
-   -->
 <Unit Name="Doomweaver">
   <Cost>150</Cost>
   <Move>25</Move>
@@ -930,6 +968,7 @@
   <Weapon Name="Wire thread" Range="spc" AttackDice="spc" ToHit="spc" TargetSaveMod="spc"></Weapon>
   <Type></Type>
   <Notes></Notes>
+  <Reference>Renegades,p18-19</Reference>
 </Unit>
 
  <!-- Dreadnought=150\n10\n5+\n+2\nLascannon\n75\n1\n5+\n-2\n2\n4\n-\n-\nNearest order\n 
@@ -944,16 +983,15 @@
   <Notes></Notes>
 </Unit>
 
- <!-- Falcon=300\n25\n3+\n+1\nLascannon\n75\n1\n4+\n-2\n3\n9\n5\n3\nCarries 2 Stands\n 
-   -->
-<Unit Name="Falcon">
+<Unit Name="Falcon grav-tank">
   <Cost>300</Cost>
   <Move>25</Move>
   <SavingThrow>3+</SavingThrow>
   <CloseAssaultFactor>+1</CloseAssaultFactor>
   <Weapon Name="Lascannon" Range="75" AttackDice="1" ToHit="4+" TargetSaveMod="-2"></Weapon>
-  <Type></Type>
-  <Notes></Notes>
+  <Type>Skimmer</Type>
+  <Notes>Carries 2 Stands</Notes>
+  <Reference>Renegades,p9</Reference>
 </Unit>
 
  <!-- Fire Dragons=100\n10\n-\n+2\nThermal gun\n25\n1\n5+\n-2\n1\n4\n2\n\n\n 
@@ -968,9 +1006,7 @@
   <Notes></Notes>
 </Unit>
 
- <!-- Guardians=150\n10\n-\n0\nShuriken\n50\n1\n5+\n0\n2\n6\n3\n3\n\n 
-   -->
-<Unit Name="Guardians">
+<Unit Name="Eldar Guardians">
   <Cost>150</Cost>
   <Move>10</Move>
   <SavingThrow>-</SavingThrow>
@@ -978,6 +1014,7 @@
   <Weapon Name="Shuriken" Range="50" AttackDice="1" ToHit="5+" TargetSaveMod="0"></Weapon>
   <Type></Type>
   <Notes></Notes>
+  <Reference>Renegades,p9</Reference>
 </Unit>
 
  <!-- Howling Banshees=150\n10\n-\n+6\nPower sword\n-\n-\n-\n-\n1\n4\n2\n\nPsychic scream\n 
@@ -992,9 +1029,7 @@
   <Notes></Notes>
 </Unit>
 
- <!-- Jet-Bike, Eldar=200\n35\n-\n+3\nShur Cannon\n15\n1\n5+\n-1\n2\n5\n3\n3\nSkimmer\n 
-   -->
-<Unit Name="Jet-Bike, Eldar">
+<Unit Name="Eldar Jet-Bike">
   <Cost>200</Cost>
   <Move>35</Move>
   <SavingThrow>-</SavingThrow>
@@ -1002,11 +1037,10 @@
   <Weapon Name="Shur Cannon" Range="15" AttackDice="1" ToHit="5+" TargetSaveMod="-1"></Weapon>
   <Type></Type>
   <Notes></Notes>
+  <Reference>Renegades,p11</Reference>
 </Unit>
 
- <!-- Jet-Bike, Vyper=250\n35\n-\n+3\nShur cannon\n25\n2\n5+\n-1\n3\n5\n3\n\nSkimmer\n 
-   -->
-<Unit Name="Jet-Bike, Vyper">
+<Unit Name="Vyper Jet-Bike">
   <Cost>250</Cost>
   <Move>35</Move>
   <SavingThrow>-</SavingThrow>
@@ -1014,6 +1048,7 @@
   <Weapon Name="Shur cannon" Range="25" AttackDice="2" ToHit="5+" TargetSaveMod="-1"></Weapon>
   <Type></Type>
   <Notes></Notes>
+  <Reference>Renegades,p11</Reference>
 </Unit>
 
  <!-- Lascannon, ag=100\n10\n-\n-3\nLascannon\n75\n1\n4+\n-2\n1\n3\n2\n\n\n 
@@ -1052,41 +1087,19 @@
   <Notes></Notes>
 </Unit>
 
- <!-- Tempest=500\n25\n1+\n+4\nShuriken\n15\n1\n6+\n0\n5\n3\n2\n\nSkimmer\n 
-   -->
 <Unit Name="Tempest">
   <Cost>500</Cost>
   <Move>25</Move>
   <SavingThrow>1+</SavingThrow>
   <CloseAssaultFactor>+4</CloseAssaultFactor>
-  <Weapon Name="Shuriken" Range="15" AttackDice="1" ToHit="6+" TargetSaveMod="0"></Weapon>
-  <Type></Type>
-  <Notes></Notes>
-</Unit>
-
- <!-- Tempest=\n\n\n\nShuriken cannon\n15\n2\n5+\n-1\n\n\n\n\n\n 
-   -->
-<Unit Name="Tempest">
-  <Cost></Cost>
-  <Move></Move>
-  <SavingThrow></SavingThrow>
-  <CloseAssaultFactor></CloseAssaultFactor>
-  <Weapon Name="Shuriken cannon" Range="15" AttackDice="2" ToHit="5+" TargetSaveMod="-1"></Weapon>
-  <Type></Type>
-  <Notes></Notes>
-</Unit>
-
- <!-- Tempest=\n\n\n\nTempest laser\n100\n2\n4+\n-3\n\n\n\n\n\n 
-   -->
-<Unit Name="Tempest">
-  <Cost></Cost>
-  <Move></Move>
-  <SavingThrow></SavingThrow>
-  <CloseAssaultFactor></CloseAssaultFactor>
   <Weapon Name="Tempest laser" Range="100" AttackDice="2" ToHit="4+" TargetSaveMod="-3"></Weapon>
-  <Type></Type>
+  <Weapon Name="Shuriken" Range="15" AttackDice="2" ToHit="6+" TargetSaveMod="0"></Weapon>
+  <Weapon Name="Shuriken cannon" Range="15" AttackDice="1" ToHit="5+" TargetSaveMod="-1"></Weapon>
+  <Type>Skimmer</Type>
   <Notes></Notes>
+  <Reference>Renegades,p14</Reference>
 </Unit>
+
 
  <!-- Titan=\n\n\n\nDistortion cannon\n75\n\n\n\n\n\n\n\nAs Warp hnt\n 
    -->
@@ -1126,7 +1139,7 @@
 
  <!-- Titan, Phantom=600\n20\nspc\n+12\nspc\nspc\nspc\nspc\nspc\n6\n1\n-\n-\n\n 
    -->
-<Unit Name="Titan, Phantom">
+<Unit Name="Phantom Titan">
   <Cost>600</Cost>
   <Move>20</Move>
   <SavingThrow>spc</SavingThrow>
@@ -1138,7 +1151,7 @@
 
  <!-- Titan, Warlock=750\n20\nspc\n+12\nspc\nspc\nspc\nspc\nspc\n8\n1\n-\n-\nPsychic power\n 
    -->
-<Unit Name="Titan, Warlock">
+<Unit Name="Warlock Titan">
   <Cost>750</Cost>
   <Move>20</Move>
   <SavingThrow>spc</SavingThrow>
@@ -1148,16 +1161,14 @@
   <Notes></Notes>
 </Unit>
 
- <!-- Vibro-Cannon=100\n10\n-\n-3\nVibro-cannon\n75\nspc\nspc\n-\n1\n3\n2\n\nTarget 5+; Interven 6+\n 
-   -->
 <Unit Name="Vibro-Cannon">
-  <Cost>100</Cost>
   <Move>10</Move>
   <SavingThrow>-</SavingThrow>
   <CloseAssaultFactor>-3</CloseAssaultFactor>
   <Weapon Name="Vibro-cannon" Range="75" AttackDice="spc" ToHit="spc" TargetSaveMod="-"></Weapon>
-  <Type></Type>
-  <Notes></Notes>
+  <Type>Skimmer?</Type>
+  <Notes>Combined cannon gives greater dam.</Notes>
+  <Reference>Renegades,p14</Reference>
 </Unit>
 
  <!-- War Walker=150\n25\n-\n+1\nLascannon\n75\n1\n5+\n-2\n2\n3\n2\n3\n\n 
@@ -1196,16 +1207,14 @@
   <Notes></Notes>
 </Unit>
 
- <!-- Wave Serpent=150\n25\n3+\n+1\nWarp wave\n2D6\n-\n4+\n-\n2\n2\n1\n3\n\n 
-   -->
 <Unit Name="Wave Serpent">
-  <Cost>150</Cost>
   <Move>25</Move>
   <SavingThrow>3+</SavingThrow>
   <CloseAssaultFactor>+1</CloseAssaultFactor>
   <Weapon Name="Warp wave" Range="2D6" AttackDice="-" ToHit="4+" TargetSaveMod="-"></Weapon>
-  <Type></Type>
-  <Notes></Notes>
+  <Type>Skimmer</Type>
+  <Notes>May carry two troop stands.</Notes>
+  <References>Renegades,p16</References>
 </Unit>
 
  <!-- Wraithguard=100\n10\n6+\n+4\nWraithcannon\n50\n1\n5+\n-1\n1\n4\n-\n-\nNearest order\n 
