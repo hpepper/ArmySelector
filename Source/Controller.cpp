@@ -30,6 +30,17 @@ Controller::Controller()
 Controller::~Controller()
 {
     delete m_pModel;
+    delete m_pMaxPointField;
+}
+
+Label * Controller::CreatePointField()
+{
+    m_pMaxPointField = new Label("MaxPointField", "Army maximum point size:");
+    m_pMaxPointField->setEditable(true);
+    // TODO C grab the value from the Model.
+    // TODO V filter the entry thingy so that it will only take numbers.
+    m_pMaxPointField->setText("0", sendNotification);
+    return(m_pMaxPointField);
 }
 
 ChoicePropertyComponent * Controller::PopulateArmyDropDownComponent()

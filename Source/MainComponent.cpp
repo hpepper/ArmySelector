@@ -17,8 +17,10 @@ MainContentComponent::MainContentComponent()
     addAndMakeVisible(m_pButton1);
     
     m_pSelectArmyDropDown = m_pController->PopulateArmyDropDownComponent();
-    
     addAndMakeVisible(m_pSelectArmyDropDown);
+    
+    m_pMaxPointField = m_pController->CreatePointField();
+    addAndMakeVisible(m_pMaxPointField);
     
     
     setSize (500, 400);
@@ -29,6 +31,9 @@ MainContentComponent::~MainContentComponent()
     delete m_pButton1;
     delete m_pController;
     delete m_pSelectArmyDropDown;
+    
+    // This variable will be deleted in the Controller class.
+    //delete m_pMaxPointField;
 }
 
 void MainContentComponent::paint (Graphics& g)
@@ -46,5 +51,6 @@ void MainContentComponent::resized()
     // If you add any child components, this is where you should
     // update their positions.
     m_pButton1->setBounds(10,10,40,15);
-    m_pSelectArmyDropDown->setBounds(10,30,120,15);
+    m_pMaxPointField->setBounds(10,30,250,15);
+    m_pSelectArmyDropDown->setBounds(10,50,120,15);
 }
