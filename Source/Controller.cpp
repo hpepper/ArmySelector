@@ -9,6 +9,8 @@
 
 #include "Controller.h"
 
+#define SINGLE_LINE_FIELD false
+#define MULTI_LINE_FIELD true
 
 Controller::Controller()
 {
@@ -21,25 +23,24 @@ Controller::Controller()
     m_pArmySelected = new Value(m_nArmySelectionIndex);
     
     m_pArmySelected->addListener(this);
-   
-
     
-    
+    m_nMaxArmyPointSize = 0;
+    m_pMaxPointFieldValue = new Value(m_nMaxArmyPointSize); 
+    m_pMaxPointFieldValue->addListener(this);
 }
 
 Controller::~Controller()
 {
     delete m_pModel;
     delete m_pMaxPointField;
+    delete m_pMaxPointFieldValue;
 }
 
-Label * Controller::CreatePointField()
+TextPropertyComponent * Controller::CreatePointField()
 {
-    m_pMaxPointField = new Label("MaxPointField", "Army maximum point size:");
-    m_pMaxPointField->setEditable(true);
+    m_pMaxPointField = new TextPropertyComponent(*m_pMaxPointFieldValue, "Army maximum point size:", 5, SINGLE_LINE_FIELD);
     // TODO C grab the value from the Model.
     // TODO V filter the entry thingy so that it will only take numbers.
-    m_pMaxPointField->setText("0", sendNotification);
     return(m_pMaxPointField);
 }
 
@@ -74,5 +75,26 @@ void Controller::valueChanged(Value &value)
     if ( value.refersToSameSourceAs(*m_pArmySelected) ) {
         var nIndex = value.getValue();
         std::cout << "DropDown Changed: " << value.toString() << std::endl;
+    } else if ( value.refersToSameSourceAs(*m_pMaxPointFieldValue) ) {
+        // Get the 'var' out of the 'Value'
+        var nPointsVar = value.getValue();
+        
+        // Convert the 'var' to an int.
+        int nPoints = (nPointsVar.toString()).getIntValue();
+        
+        // Find out if the input contained any char or was a clean integer.
+        var cVarCompare(nPoints);
+        if ( ! nPointsVar.equals(cVarCompare) ) {
+            std::cout << "Point value invalid: " << value.toString() << std::endl;
+            m_nMaxArmyPointSize = 0;
+            value.setValue(m_nMaxArmyPointSize);
+        } else if ( nPoints < 0 ) {
+            std::cout << "Negative point values not allowed: " << value.toString() << std::endl;
+            m_nMaxArmyPointSize = 0;
+            value.setValue(m_nMaxArmyPointSize);
+        } else {
+            std::cout << "Point value Changed: " << value.toString() << std::endl;
+            // Re-caclulate the 'Unused'/'Poits left' points label.
+        }
     }
 }

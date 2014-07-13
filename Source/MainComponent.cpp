@@ -50,7 +50,7 @@ void MainContentComponent::resized()
     // This is called when the MainContentComponent is resized.
     // If you add any child components, this is where you should
     // update their positions.
-    m_pButton1->setBounds(10,10,40,15);
-    m_pMaxPointField->setBounds(10,30,250,15);
-    m_pSelectArmyDropDown->setBounds(10,50,120,15);
+    m_pButton1->setBounds(10,10,40,17);
+    m_pMaxPointField->setBounds(10,30,350,17);
+    m_pSelectArmyDropDown->setBounds(10,50,220,17);
 }

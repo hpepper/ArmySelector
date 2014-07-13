@@ -20,7 +20,7 @@ class Controller : public Component, Value::Listener {
     void valueChanged(Value &value);
 
     ChoicePropertyComponent * PopulateArmyDropDownComponent();
-    Label * CreatePointField();
+    TextPropertyComponent * CreatePointField();
     
     private:
     
@@ -34,7 +34,9 @@ class Controller : public Component, Value::Listener {
     StringArray m_cArmyChoices;
     Array<var> m_arArmyChoiceVars;
     
-    Label *m_pMaxPointField;
+    TextPropertyComponent *m_pMaxPointField;
+    Value *m_pMaxPointFieldValue;
+    var m_nMaxArmyPointSize;
 
 };
 
