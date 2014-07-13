@@ -13,6 +13,7 @@
 
 Model::Model(std::string szFileName)
 {
+    m_nMaximumArmySizeInPoints = 0;
     std::cout << szFileName << std::endl;
     if ( File(szFileName).exists() ) {
         std::cout << " exists" << std::endl;
@@ -53,4 +54,16 @@ std::vector<String> Model::GetArmyNameList()
     }
 
     return(cArmyNameList);
+}
+
+
+int Model::SetArmySizeInPoints(int nPoints)
+{
+    if ( nPoints > 0 ){
+        m_nMaximumArmySizeInPoints = nPoints;
+    } else {
+        m_nMaximumArmySizeInPoints = 0;
+    }
+    std::cout << "SetArmySizeInPoints(): " << m_nMaximumArmySizeInPoints << std::endl;
+    return(m_nMaximumArmySizeInPoints);
 }

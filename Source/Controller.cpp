@@ -94,6 +94,7 @@ void Controller::valueChanged(Value &value)
             value.setValue(m_nMaxArmyPointSize);
         } else {
             std::cout << "Point value Changed: " << value.toString() << std::endl;
+            m_pModel->SetArmySizeInPoints(nPoints);
             // Re-caclulate the 'Unused'/'Poits left' points label.
         }
     }
