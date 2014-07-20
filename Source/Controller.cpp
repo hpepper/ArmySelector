@@ -14,8 +14,17 @@
 
 Controller::Controller()
 {
-//    m_pModel = new Model("../../../../Data/epic.xml");
-    m_pModel = new Model("../../Data/epic.xml");
+    
+    String sCurrentOsName = SystemStats::getOperatingSystemName();
+    std::cout << sCurrentOsName << std::endl;
+    if ( sCurrentOsName.startsWith("Linux") ) {
+        // TODO N put the file name in here and instantiate the model later.
+      m_pModel = new Model("../../Data/epic.xml");
+    } else if ( sCurrentOsName.startsWith("MacOSX") ) {
+      m_pModel = new Model("../../../../Data/epic.xml");
+    } else {
+      m_pModel = new Model("../../Data/epic.xml");
+    }
 //    m_pModel = new Model("../../Data/test.xml");
 
     m_nArmySelectionIndex = 0;
