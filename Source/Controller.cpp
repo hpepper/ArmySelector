@@ -20,7 +20,7 @@ Controller::Controller()
     if ( sCurrentOsName.startsWith("Linux") ) {
         // TODO N put the file name in here and instantiate the model later.
       m_pModel = new Model("../../Data/epic.xml");
-    } else if ( sCurrentOsName.startsWith("MacOSX") ) {
+    } else if ( sCurrentOsName.startsWith("Mac OSX") ) {
       m_pModel = new Model("../../../../Data/epic.xml");
     } else {
       m_pModel = new Model("../../Data/epic.xml");
