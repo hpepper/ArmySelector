@@ -4,7 +4,10 @@
               bundleIdentifier="com.yourcompany.ArmySelector" includeBinaryInAppConfig="1"
               jucerVersion="3.1.0">
   <MAINGROUP id="IbWuRZ" name="ArmySelector">
+    <FILE id="R4I9QR" name="icon.png" compile="0" resource="1" file="Builds/Android/res/drawable-mdpi/icon.png"/>
     <GROUP id="{12358D9C-3501-422C-B202-D864578FFCEB}" name="Source">
+      <FILE id="fp7Bsb" name="Storage.cpp" compile="1" resource="0" file="Source/Storage.cpp"/>
+      <FILE id="x5MpWF" name="Storage.h" compile="0" resource="0" file="Source/Storage.h"/>
       <FILE id="wPLbKG" name="Model.cpp" compile="1" resource="0" file="Source/Model.cpp"/>
       <FILE id="QJ7PwE" name="Model.h" compile="0" resource="0" file="Source/Model.h"/>
       <FILE id="kbXIXE" name="Controller.cpp" compile="1" resource="0" file="Source/Controller.cpp"/>
@@ -89,7 +92,7 @@
              androidSDKPath="${user.home}/SDKs/android-sdk" androidNDKPath="${user.home}/SDKs/android-ndk"
              androidMinimumSDK="8" androidInternetNeeded="1" androidKeyStore="${user.home}/.android/debug.keystore"
              androidKeyStorePass="android" androidKeyAlias="androiddebugkey"
-             androidKeyAliasPass="android">
+             androidKeyAliasPass="android" smallIcon="R4I9QR">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" androidArchitectures="armeabi armeabi-v7a" isDebug="1"
                        optimisation="1" targetName="ArmySelector"/>
