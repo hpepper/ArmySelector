@@ -1,2 +1,6 @@
 Builds/MacOSX/build
 Builds/Linux/build
+Builds/Android/bin
+Builds/Android/gen
+Builds/Android/libs
+Builds/Android/obj
