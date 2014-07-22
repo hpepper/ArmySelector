@@ -33,6 +33,14 @@ Storage::~Storage() {
 int Storage::SaveXmlFile(String sFileName) {
     // TODO N Lookup the path seperator (part of the 'File' class.
     String sTargetFile = m_sAbsoluteStoragePath + "/" + sFileName;
-    std::cout << "DDD m_sAbsoluteStoragePath = '" << m_sAbsoluteStoragePath << "'" << std::endl;
+    // std::cout << "DDD m_sAbsoluteStoragePath = '" << m_sAbsoluteStoragePath << "'" << std::endl;
     std::cout << "III SaveXmlFile(" << sTargetFile << ")" << std::endl;
+ 
+    XmlElement xmlRoot("ArmyList");
+    xmlRoot.setAttribute("Version", "0.1.0");
+    XmlElement *xmlArmyName = xmlRoot.createNewChildElement("ArmyName");
+    xmlArmyName->addTextElement("Eldar");
+    xmlRoot.writeToFile(File(sTargetFile), "", "UTF-8", 100);
+
+    
 }
