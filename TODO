@@ -1,3 +1,4 @@
+TODO V Make it run without throwing errors on windows.
 TODO C Save the data in XML format. Have the controller call the XmlStorage class with the Model pointer.
 TODO C Change the 'Test' button to a 'Save' button.
 TODO N Have a timer to storage at certain times. (possibly have a value that indicates dirty data  in mem.)
@@ -5,3 +6,4 @@ TODO N Set the GUI up for the various things that can be selected for the army.
          Like the army points. (Drop down of 500/1000/1500/2000 or enter the actual limit.
 TODO C read all the units for the given army.
 TODO N remove the test button.
+TODO N Make it run on Android, probably needs to include the .xml file in the res or something.

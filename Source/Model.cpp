@@ -17,15 +17,19 @@ Model::Model(std::string szFileName)
     std::cout << szFileName << std::endl;
     if ( File(szFileName).exists() ) {
         std::cout << " exists" << std::endl;
+        m_pXmlDocument = new XmlDocument(File(szFileName));
+        m_pXmlRootElement = m_pXmlDocument->getDocumentElement();
+        if (m_pXmlRootElement == nullptr) {
+            String error = m_pXmlDocument->getLastParseError();
+            std::cout << "!!! " << error << std::endl;
+        } 
     } else {
-        std::cout << " does NOT exist !!!" << std::endl;      
+        std::cout << " does NOT exist !!!" << std::endl;  
+        m_pXmlRootElement = new XmlElement("ArmyList");
+        m_pXmlRootElement->setAttribute("Version", "0.1.0");
+        XmlElement *xmlArmyName = m_pXmlRootElement->createNewChildElement("ArmyName");
+        xmlArmyName->addTextElement("Eldar");
     }
-    m_pXmlDocument = new XmlDocument(File(szFileName));
-    m_pXmlRootElement = m_pXmlDocument->getDocumentElement();
-    if (m_pXmlRootElement == nullptr) {
-        String error = m_pXmlDocument->getLastParseError();
-        std::cout << "!!! " << error << std::endl;
-    } 
     
 }
 
