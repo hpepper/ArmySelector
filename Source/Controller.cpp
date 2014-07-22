@@ -24,6 +24,8 @@ Controller::Controller()
       m_pModel = new Model("../../../../Data/epic.xml");
     } else if ( sCurrentOsName.startsWith("Android") ) {
       m_pModel = new Model("res/raw/epic.xml");
+    } else if ( sCurrentOsName.startsWith("Windows") ) {
+      m_pModel = new Model("../../../Data/epic.xml");
     } else {
       m_pModel = new Model("../../Data/epic.xml");
     }

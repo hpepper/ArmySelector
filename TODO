@@ -1,4 +1,3 @@
-TODO V Make it run without throwing errors on windows.
 TODO C Save the data in XML format. Have the controller call the XmlStorage class with the Model pointer.
 TODO C Change the 'Test' button to a 'Save' button.
 TODO N Have a timer to storage at certain times. (possibly have a value that indicates dirty data  in mem.)
