@@ -20,7 +20,7 @@ class Storage {
     Storage(String);
     ~Storage();
     
-    int SaveXmlFile(String sFileName);
+    int SaveXmlFile(String sFileName, String sArmyName, var nMaxArmyPointSize);
     
     void PrintBaseStorageDir();
     

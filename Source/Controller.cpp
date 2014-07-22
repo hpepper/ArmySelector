@@ -83,11 +83,13 @@ ChoicePropertyComponent * Controller::PopulateArmyDropDownComponent()
     // TODO V Only if the pSelectArmyDropDown is NULL allocate a new one.
     ChoicePropertyComponent *pSelectArmyDropDown = new ChoicePropertyComponent (*m_pArmySelected, "Select Army", m_cArmyChoices, m_arArmyChoiceVars);
     
+    m_sCurrentArmyName = m_cArmyChoices.getReference(0);
+    
     return(pSelectArmyDropDown);
 }
 
 int Controller::Save() {
-    m_pStorage->SaveXmlFile("armyselection.xml");
+    m_pStorage->SaveXmlFile("armyselection.xml", m_sCurrentArmyName,  m_pModel->GetArmySizeInPoints());
 }
 
 void Controller::valueChanged(Value &value)
@@ -95,6 +97,7 @@ void Controller::valueChanged(Value &value)
     
     if ( value.refersToSameSourceAs(*m_pArmySelected) ) {
         var nIndex = value.getValue();
+        m_sCurrentArmyName = m_cArmyChoices.getReference(nIndex);
         std::cout << "DropDown Changed: " << value.toString() << std::endl;
     } else if ( value.refersToSameSourceAs(*m_pMaxPointFieldValue) ) {
         // Get the 'var' out of the 'Value'

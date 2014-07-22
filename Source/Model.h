@@ -21,13 +21,14 @@ class Model {
     
     std::vector<String> GetArmyNameList();
     
-    int SetArmySizeInPoints(int nPoints);
+    var GetArmySizeInPoints();
+    var SetArmySizeInPoints(var nPoints);
     
     private:
     XmlDocument *m_pXmlDocument;
     XmlElement *m_pXmlRootElement;
     
-    int m_nMaximumArmySizeInPoints;
+    var m_nMaximumArmySizeInPoints;
 };
 
 

@@ -30,7 +30,7 @@ Storage::~Storage() {
     std::cout << "DDD Storage DESTRUCTOR" << std::endl;
 }
 
-int Storage::SaveXmlFile(String sFileName) {
+int Storage::SaveXmlFile(String sFileName, String sArmyName, var nMaxArmyPointSize) {
     // TODO N Lookup the path seperator (part of the 'File' class.
     String sTargetFile = m_sAbsoluteStoragePath + "/" + sFileName;
     // std::cout << "DDD m_sAbsoluteStoragePath = '" << m_sAbsoluteStoragePath << "'" << std::endl;
@@ -39,7 +39,9 @@ int Storage::SaveXmlFile(String sFileName) {
     XmlElement xmlRoot("ArmyList");
     xmlRoot.setAttribute("Version", "0.1.0");
     XmlElement *xmlArmyName = xmlRoot.createNewChildElement("ArmyName");
-    xmlArmyName->addTextElement("Eldar");
+    xmlArmyName->addTextElement(sArmyName);
+    XmlElement *xmlArmyMaxPoints = xmlRoot.createNewChildElement("MaxPoints");
+    xmlArmyMaxPoints->addTextElement(nMaxArmyPointSize.toString());
     xmlRoot.writeToFile(File(sTargetFile), "", "UTF-8", 100);
 
     

@@ -41,6 +41,7 @@ class Controller : public Component, Value::Listener {
     TextPropertyComponent *m_pMaxPointField;
     Value *m_pMaxPointFieldValue;
     var m_nMaxArmyPointSize;
+    String m_sCurrentArmyName;
 
 };
 

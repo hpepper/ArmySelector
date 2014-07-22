@@ -69,13 +69,19 @@ std::vector<String> Model::GetArmyNameList()
 }
 
 
-int Model::SetArmySizeInPoints(int nPoints)
+var Model::SetArmySizeInPoints(var nPoints)
 {
-    if ( nPoints > 0 ){
+    int nComparePoints = nPoints;
+    if ( nComparePoints > 0 ){
         m_nMaximumArmySizeInPoints = nPoints;
     } else {
         m_nMaximumArmySizeInPoints = 0;
     }
-    std::cout << "SetArmySizeInPoints(): " << m_nMaximumArmySizeInPoints << std::endl;
+    std::cout << "SetArmySizeInPoints(): " << m_nMaximumArmySizeInPoints.toString() << std::endl;
     return(m_nMaximumArmySizeInPoints);
+}
+
+var Model::GetArmySizeInPoints()
+{
+  return(m_nMaximumArmySizeInPoints);
 }
