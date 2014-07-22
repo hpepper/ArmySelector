@@ -11,7 +11,7 @@
 #include <iostream>
 
 
-Model::Model(std::string szFileName)
+Model::Model(String szFileName)
 {
     m_nMaximumArmySizeInPoints = 0;
     std::cout << szFileName << std::endl;

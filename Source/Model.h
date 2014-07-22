@@ -16,7 +16,7 @@
 
 class Model {
     public:
-    Model(std::string);
+    Model(String);
     ~Model();
     
     std::vector<String> GetArmyNameList();

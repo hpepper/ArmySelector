@@ -6,4 +6,7 @@ TODO N Set the GUI up for the various things that can be selected for the army.
          Like the army points. (Drop down of 500/1000/1500/2000 or enter the actual limit.
 TODO C read all the units for the given army.
 TODO N remove the test button.
-TODO N Make it run on Android, probably needs to include the .xml file in the res or something.
+TODO N Make Android read the .xml file.
+TODO N Make Android Screen look like an Android App
+TODO N Support WH40K
+TODO N Support Fantasy Army
