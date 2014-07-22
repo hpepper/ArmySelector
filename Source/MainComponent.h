@@ -19,12 +19,14 @@
     This component lives inside our window, and this is where you should put all
     your controls and content.
 */
-class MainContentComponent   : public Component
+class MainContentComponent   : public Component, Button::Listener
 {
 public:
     //==============================================================================
     MainContentComponent();
     ~MainContentComponent();
+
+    void buttonClicked(Button* button);
 
     void paint (Graphics&);
     void resized();

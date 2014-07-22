@@ -13,7 +13,8 @@
 MainContentComponent::MainContentComponent()
 {
     m_pController = new Controller();
-    m_pButton1 = new TextButton("Test");
+    m_pButton1 = new TextButton("Save");
+    m_pButton1->addListener(this);
     addAndMakeVisible(m_pButton1);
     
     m_pSelectArmyDropDown = m_pController->PopulateArmyDropDownComponent();
@@ -35,6 +36,13 @@ MainContentComponent::~MainContentComponent()
     // This variable will be deleted in the Controller class.
     //delete m_pMaxPointField;
 }
+
+void MainContentComponent::buttonClicked(Button* button) {
+    if (button == m_pButton1 ) {
+        m_pController->Save();
+    }
+}
+
 
 void MainContentComponent::paint (Graphics& g)
 {

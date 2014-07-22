@@ -42,6 +42,7 @@ Controller::Controller()
     m_pMaxPointFieldValue->addListener(this);
     
     m_pStorage = new Storage();
+    m_pStorage->PrintBaseStorageDir();
 }
 
 Controller::~Controller()
@@ -51,6 +52,7 @@ Controller::~Controller()
     delete m_pMaxPointField;
     delete m_pMaxPointFieldValue;
 }
+
 
 TextPropertyComponent * Controller::CreatePointField()
 {
@@ -84,6 +86,9 @@ ChoicePropertyComponent * Controller::PopulateArmyDropDownComponent()
     return(pSelectArmyDropDown);
 }
 
+int Controller::Save() {
+    m_pStorage->SaveXmlFile("armyselection.xml");
+}
 
 void Controller::valueChanged(Value &value)
 {

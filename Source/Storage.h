@@ -20,6 +20,10 @@ class Storage {
     Storage(String);
     ~Storage();
     
+    int SaveXmlFile(String sFileName);
+    
+    void PrintBaseStorageDir();
+    
     
     private:
     String m_sAbsoluteStoragePath;

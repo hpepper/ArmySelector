@@ -23,6 +23,8 @@ class Controller : public Component, Value::Listener {
     ChoicePropertyComponent * PopulateArmyDropDownComponent();
     TextPropertyComponent * CreatePointField();
     
+    int Save();
+    
     private:
     
     Model *m_pModel;
