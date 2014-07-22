@@ -15,9 +15,11 @@ Model::Model(String szFileName)
 {
     m_nMaximumArmySizeInPoints = 0;
     std::cout << szFileName << std::endl;
-    if ( File(szFileName).exists() ) {
+    // TODO V Support absolute paths as well.
+    File cXmlFile = File::getCurrentWorkingDirectory().getChildFile(szFileName);
+    if ( cXmlFile.exists() ) {
         std::cout << " exists" << std::endl;
-        m_pXmlDocument = new XmlDocument(File(szFileName));
+        m_pXmlDocument = new XmlDocument(cXmlFile);
         m_pXmlRootElement = m_pXmlDocument->getDocumentElement();
         if (m_pXmlRootElement == nullptr) {
             String error = m_pXmlDocument->getLastParseError();
