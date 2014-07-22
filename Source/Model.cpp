@@ -17,6 +17,7 @@ Model::Model(String szFileName)
     std::cout << szFileName << std::endl;
     // TODO V Support absolute paths as well.
     File cXmlFile = File::getCurrentWorkingDirectory().getChildFile(szFileName);
+    std::cout << cXmlFile.getFullPathName() << std::endl;
     if ( cXmlFile.exists() ) {
         std::cout << " exists" << std::endl;
         m_pXmlDocument = new XmlDocument(cXmlFile);
