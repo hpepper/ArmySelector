@@ -40,11 +40,14 @@ Controller::Controller()
     m_nMaxArmyPointSize = 0;
     m_pMaxPointFieldValue = new Value(m_nMaxArmyPointSize); 
     m_pMaxPointFieldValue->addListener(this);
+    
+    m_pStorage = new Storage();
 }
 
 Controller::~Controller()
 {
     delete m_pModel;
+    delete m_pStorage;
     delete m_pMaxPointField;
     delete m_pMaxPointFieldValue;
 }

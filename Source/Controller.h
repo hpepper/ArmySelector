@@ -11,6 +11,7 @@
 #define CONTROLLER_H_INCLUDED
 
 #include "Model.h"
+#include "Storage.h"
 
 class Controller : public Component, Value::Listener {
     public:
@@ -26,6 +27,7 @@ class Controller : public Component, Value::Listener {
     
     Model *m_pModel;
     Value *m_pValue;
+    Storage *m_pStorage;
     
     var m_nArmySelectionIndex;
     
