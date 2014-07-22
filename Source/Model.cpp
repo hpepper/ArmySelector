@@ -16,7 +16,11 @@ Model::Model(String szFileName)
     m_nMaximumArmySizeInPoints = 0;
     std::cout << szFileName << std::endl;
     // TODO V Support absolute paths as well.
-    File cXmlFile = File::getCurrentWorkingDirectory().getChildFile(szFileName);
+    // TODO V Support running-environement Dev/Test/Production
+    File cExecutablePath =  File::getSpecialLocation(File::invokedExecutableFile).getParentDirectory();
+    std::cout << cExecutablePath.getFullPathName() << std::endl;
+    File cXmlFile = cExecutablePath.getChildFile(szFileName);
+    //File cXmlFile = File::getCurrentWorkingDirectory().getChildFile(szFileName);
     std::cout << cXmlFile.getFullPathName() << std::endl;
     if ( cXmlFile.exists() ) {
         std::cout << " exists" << std::endl;
@@ -27,6 +31,7 @@ Model::Model(String szFileName)
             std::cout << "!!! " << error << std::endl;
         } 
     } else {
+        m_pXmlDocument = NULL;
         std::cout << " does NOT exist !!!" << std::endl;  
         m_pXmlRootElement = new XmlElement("ArmyList");
         m_pXmlRootElement->setAttribute("Version", "0.1.0");
